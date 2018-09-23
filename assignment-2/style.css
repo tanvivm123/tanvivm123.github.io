@@ -1,0 +1,17 @@
+body {background-color: #000000;
+color: white;
+}
+a{color: green}
+h3
+{font-family:helvetica,ARIAL, san-serif;
+size: 30px;
+font-style: italic;}
+
+.red-rectangle{
+	background-color: red;
+	width: 500px;
+	height: 500px
+}
+.red-rectangle p {
+	text-align: center;
+}
