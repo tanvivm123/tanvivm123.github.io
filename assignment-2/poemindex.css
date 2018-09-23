@@ -1,0 +1,51 @@
+
+a{color: orange}
+
+h1
+{font-family:helvetica,ARIAL, san-serif;
+size: 50px;
+font-style: bold;}
+
+h2
+{font-family:helvetica,ARIAL, san-serif;
+size: 40px;
+font-style: italic;}
+
+h3
+{font-family:helvetica,ARIAL, san-serif;
+size: 34px;
+}
+
+h4
+{font-family:helvetica,ARIAL, san-serif;
+size: 38px;
+}
+
+h5
+{font-family:helvetica,ARIAL, san-serif;
+size: 25px;
+}
+
+.white-rectangle{
+	background-color: #FEFFE9;
+	width: 210px;
+	height: 40px
+}
+.white-rectangle p {
+	text-align: center;
+}
+
+
+.dot {
+    height: 370px;
+    width: 370px;
+    background-color: #FEFFE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot p {
+	text-align: justify-all;
+}
+
+
