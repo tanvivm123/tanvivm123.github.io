@@ -11,14 +11,14 @@ h2
 {font-family:helvetica,ARIAL, san-serif;
 size: 40px;
 font-style: italic;
-color: white;
+color: black;
 font-style: bold;
 text-align: center;}
 
 h3
 {font-family:helvetica,ARIAL, san-serif;
 size: 34px;
-color: white;
+color: black;
 text-align: center;}
 
 h4
@@ -43,11 +43,16 @@ size: 25px;
 
 
 .dot {
-    height: 200px;
-    width: 200px;
-    background-color: #07432B;
+    height: 450px;
+    width: 250px;
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
+    opacity: 0.8;
+    border-right: 5px orange solid;
+    border-left: #2188e0 solid;
+    border-top: 15px orange solid;
+    border-bottom: 15px #2188e0 solid;
 }
 
 .dot p {
