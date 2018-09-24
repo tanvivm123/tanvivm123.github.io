@@ -1,0 +1,151 @@
+
+body {background-image: url("cutepretzels.png");
+background-size: 100%;}
+a{color: orange}
+
+h1
+{font-family:helvetica,ARIAL, san-serif;
+size: 50px;
+font-style: bold;
+color: white;}
+
+h2
+{font-family:helvetica,ARIAL, san-serif;
+size: 40px;
+font-style: italic;
+color: black;
+font-style: bold;
+text-align: center;}
+
+h3
+{font-family:helvetica,ARIAL, san-serif;
+size: 34px;
+color: black;
+text-align: center;}
+
+h4
+{font-family:helvetica,ARIAL, san-serif;
+size: 38px;
+color: white;
+}
+
+h5
+{font-family:helvetica,ARIAL, san-serif;
+size: 25px;
+}
+
+.white-rectangle{
+	background-color: #FEFFE9;
+	width: 210px;
+	height: 40px
+}
+.white-rectangle p {
+	text-align: center;
+}
+
+
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: #07432B;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot p {
+	text-align: justify-all;
+    align-content: center;
+}
+
+
+
+.heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    float: left;
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+
+
+
+
+
+
+.rightheart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    float: right;
+}
+.rightheart:before,
+.rightheart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.rightheart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}

@@ -1,31 +1,30 @@
-html {
-    width: auto;
-    padding: 25px;
-    background-image: url('./colorfulstripes.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 a{color: orange}
 
 h1
 {font-family:helvetica,ARIAL, san-serif;
 size: 50px;
-font-style: bold;}
+font-style: bold;
+color: white;}
 
 h2
 {font-family:helvetica,ARIAL, san-serif;
 size: 40px;
-font-style: italic;}
+font-style: italic;
+color: black;
+font-style: bold;
+text-align: center;}
 
 h3
 {font-family:helvetica,ARIAL, san-serif;
 size: 34px;
-}
+color: white;
+text-align: center;}
 
 h4
 {font-family:helvetica,ARIAL, san-serif;
 size: 38px;
+color: white;
 }
 
 h5
@@ -44,15 +43,15 @@ size: 25px;
 
 
 .dot {
-    height: 370px;
-    width: 370px;
-    background-color: #FEFFE9;
+    height: 200px;
+    width: 200px;
+    background-color: #07432B;
     border-radius: 50%;
     display: inline-block;
 }
 
 .dot p {
 	text-align: justify-all;
+    align-content: center;
 }
-
 
