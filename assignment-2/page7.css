@@ -1,6 +1,4 @@
 
-body {background-image: url("cutepretzels.png");
-background-size: 100%;}
 a{color: orange}
 
 h1
@@ -13,14 +11,14 @@ h2
 {font-family:helvetica,ARIAL, san-serif;
 size: 40px;
 font-style: italic;
-color: black;
+color: white;
 font-style: bold;
 text-align: center;}
 
 h3
 {font-family:helvetica,ARIAL, san-serif;
 size: 34px;
-color: black;
+color: white;
 text-align: center;}
 
 h4
