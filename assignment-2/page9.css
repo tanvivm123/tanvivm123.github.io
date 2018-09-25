@@ -1,15 +1,17 @@
 
-a{color: orange}
+a{color: white}
 
 h1
 {font-family:helvetica,ARIAL, san-serif;
 size: 50px;
 font-style: bold;
-color: white;}
+color: white;
+font-style: bold;
+text-align: center;}
 
 h2
 {font-family:helvetica,ARIAL, san-serif;
-size: 40px;
+font size: 40px;
 font-style: italic;
 color: black;
 font-style: bold;
@@ -32,15 +34,50 @@ h5
 size: 25px;
 }
 
+img {
+    border-radius: 49%;
+    border-right: 10px grey solid;
+    border-left: 10px grey solid;
+    border-top: 10px  grey solid;
+    border-bottom: 10px grey solid;
+}
+
+
 .white-rectangle{
 	background-color: #FEFFE9;
 	width: 210px;
 	height: 40px
 }
+
+
+    .rectangle{
+    background-color: white;
+    border-right: 5px purple solid;
+    border-left: 5px purple solid;
+    border-top: 5px  purple solid;
+    border-bottom: 5px purple solid;
+}
+
 .white-rectangle p {
 	text-align: center;
 }
 
+div {
+    width: 160px;
+    height: 70px;
+    background: white;
+    border-right: 6px #07432B solid;
+    border-left: 6px #07432B solid;
+    border-top: 1px  #07432B solid;
+    border-bottom: 1px #07432B solid;
+    opacity: 0.9;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
 
 .dot {
     height: 200px;

@@ -100,8 +100,9 @@ size: 25px;
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 1px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 4px;
 }
 
 .grid-item {
