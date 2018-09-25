@@ -16,7 +16,7 @@ text-align: center;}
 h3
 {font-family:helvetica,ARIAL, san-serif;
 size: 34px;
-color: black;
+color: #13A700;
 text-align: center;}
 
 h4
@@ -97,51 +97,17 @@ size: 25px;
             transform-origin :100% 100%;
 }
 
-
-
-
-
-
-
-
-.rightheart{
-    position: relative;
-    width: 100px;
-    height: 90px;
-    float: right;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 1px;
 }
-.rightheart:before,
-.rightheart:after{
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: #fc2e5a;
-    -moz-border-radius: 50px 50px 0 0;
-    border-radius: 50px 50px 0 0;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
-}
-.rightheart:after{
-    left: 0;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
+
+.grid-item {
+  background-color: #FFE200;
+  border: 1px solid white;
+  padding: 3px;
+  font-size: 14px;
+  text-align: center;
 }
