@@ -1,8 +1,16 @@
+html {
+    width: auto;
+    padding: 25px;
+    background-image: url('./Manhattanbridge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-a{color: orange}
+a{color: white;
+opacity: 0.8;}
 
 h1
-{font-family:helvetica,ARIAL, san-serif;
+{font-family:bodoni 72,ARIAL, san-serif;
 size: 50px;
 font-style: bold;
 color: white;}
@@ -24,7 +32,8 @@ text-align: center;}
 h4
 {font-family:helvetica,ARIAL, san-serif;
 size: 38px;
-color: white;
+color: black;
+text-align: center;
 }
 
 h5
@@ -43,9 +52,10 @@ size: 25px;
 
 
 .dot {
-    height: 200px;
-    width: 200px;
-    background-color: #07432B;
+    height: 370px;
+    width: 370px;
+    background-color: white;
+    opacity: 0.8;
     border-radius: 50%;
     display: inline-block;
 }

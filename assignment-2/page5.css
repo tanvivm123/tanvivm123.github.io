@@ -1,6 +1,12 @@
 
-body {background color: brown;
-background-size: 100%;}
+html {
+    width: auto;
+    padding: 25px;
+    background-image: url('./browngrad.svg');
+    opacity: 0.8
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 a{color: orange}
 
 h1
@@ -10,17 +16,17 @@ font-style: bold;
 color: white;}
 
 h2
-{font-family:helvetica,ARIAL, san-serif;
+{font-family:bodoni 72,ARIAL, san-serif;
 size: 40px;
 font-style: italic;
-color: black;
+color: white;
 font-style: bold;
 text-align: center;}
 
 h3
 {font-family:helvetica,ARIAL, san-serif;
 size: 34px;
-color: black;
+color: white;
 text-align: center;}
 
 h4
