@@ -1,0 +1,97 @@
+
+div{
+	
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 57px;
+	font-family: "Champagne & Limousines"; 
+	font-style: normal;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font size: 35px;
+}
+
+h3{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+		font-family: "Champagne & Limousines"; 
+			font-style: italic;
+
+
+}
+
+.flex{
+	display: flex;
+	width: 100%;
+	margin: 20px;
+
+}
+
+.titlebox{
+	width: 540px;
+	height:120px;
+	margin-left: 17%;
+}
+
+.descriptionbox{
+	width: 500px;
+	height: 218px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.8;
+	padding: 10px;
+	margin-right: 4%;
+}
+
+.red{
+	background-color: red;
+	width: 100px;
+height: 100px;
+}
+
+.bottombox{
+	width: 400px;
+height: 100px;
+margin-top: 200px;
+}
+
+.blue{
+	background-color: blue;
+	width: 100px;
+height: 100px;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
+
+
+
+.dot {
+    height: 370px;
+    width: 370px;
+    background-color: #FEFFE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot p {
+	text-align: justify-all;
+}
