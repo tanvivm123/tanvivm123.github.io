@@ -16,7 +16,7 @@ h1{
 h2{
 	text-align: center;
 	color: white;
-	font size: 35px;
+	font size: 20px;
 	font-family: "Champagne & Limousines"; 
 }
 
@@ -32,7 +32,6 @@ h3{
 	display: flex;
 	width: 100%;
 	margin: 20px;
-
 }
 
 .titlebox{
@@ -49,6 +48,15 @@ h3{
 	margin-right: 7%;
 	background-color: black;
 	opacity: 0.8;
+	border: 5px white double;
+}
+
+.photosbox{
+	width: 500px;
+	height: 5px;
+	text-align: center;
+	margin-right: 8%;
+
 }
 
 .bottombox{
@@ -67,10 +75,9 @@ margin-top: 200px;
 
 .flex-vertical{
 	display: flex;
-	height: 800px;
+	height: 800px; 
 	flex-direction: column;
 }
-
 
 
 .dot {
