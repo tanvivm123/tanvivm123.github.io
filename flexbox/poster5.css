@@ -3,26 +3,28 @@ div{
 	
 }
 
+a{color: black}
+
 h1{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 57px;
-	font-family: "Champagne & Limousines"; 
-	font-style: normal;
+	font-family: "open sans condensed"; 
 }
 
 h2{
-	text-align: center;
-	color: white;
+	text-align: right;
+	color: black;
 	font size: 35px;
+		font-family: "open sans condensed"; 
 }
 
 h3{
 	text-align: center;
 	color: black;
 	font-size: 20px;
-		font-family: "Champagne & Limousines"; 
-			font-style: italic;
+	font-family: "open sans condensed";  
+		font-style: italic;
 
 
 }
@@ -35,18 +37,15 @@ h3{
 }
 
 .titlebox{
-	width: 540px;
-	height:120px;
-	margin-left: 17%;
+	width: 700px;
+	height:90px;
+	margin: center;
 }
 
 .descriptionbox{
 	width: 500px;
-	height: 218px;
+	height: 200px;
 	text-align: center;
-	background-color: white;
-	opacity: 0.8;
-	padding: 10px;
 	margin-right: 4%;
 }
 
@@ -58,14 +57,13 @@ height: 100px;
 
 .bottombox{
 	width: 400px;
-height: 100px;
-margin-top: 200px;
+height: 20px;
 }
 
-.blue{
-	background-color: blue;
-	width: 100px;
-height: 100px;
+.brown{
+	background-color: brown;
+	width: 3%;
+height: 300px;
 }
 
 .space-around{
@@ -78,7 +76,7 @@ height: 100px;
 
 .flex-vertical{
 	display: flex;
-	height: 800px;
+	height: 400px;
 	flex-direction: column;
 }
 

@@ -1,29 +1,47 @@
+html {
+    background-image: url('./bgsunset.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 div{
 	
 }
 
+a{
+	color: black;
+}
+
 h1{
 	text-align: center;
-	color: white;
-	font-size: 57px;
+	color: black;
+	font-size: 100px;
 	font-family: "Champagne & Limousines"; 
-	font-style: normal;
+	font-style: bold;
 }
 
 h2{
 	text-align: center;
-	color: white;
-	font size: 35px;
+	color: black;
+	font size: 50px;
+	font-family: "Champagne & Limousines"; 
 }
 
 h3{
-	text-align: center;
-	color: black;
-	font-size: 20px;
+	text-align: left;
+	color: white;
+	font-size: 30px;
 		font-family: "Champagne & Limousines"; 
-			font-style: italic;
 
+}
+
+h4{ 
+	text-align: left;
+	color: black;
+	font-size: 58px;
+	font-family: "Champagne & Limousines"; 
+	font-style: normal;
 
 }
 
@@ -35,19 +53,17 @@ h3{
 }
 
 .titlebox{
-	width: 540px;
-	height:120px;
-	margin-left: 17%;
+	width: 500px;
+	height:20px;
 }
 
 .descriptionbox{
-	width: 500px;
-	height: 218px;
-	text-align: center;
-	background-color: white;
-	opacity: 0.8;
+	width: 600px;
+	height: 175px;
+	text-align: right;
 	padding: 10px;
-	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 33%
 }
 
 .red{
@@ -57,9 +73,9 @@ height: 100px;
 }
 
 .bottombox{
-	width: 400px;
-height: 100px;
-margin-top: 200px;
+	width: 700px;
+height: 50px;
+margin-top: 5%;
 }
 
 .blue{
