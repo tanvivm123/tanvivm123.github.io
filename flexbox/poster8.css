@@ -1,0 +1,179 @@
+
+
+div{
+	
+}
+
+a{
+	color: grey;
+}
+
+h1{
+	text-align: center;
+	color: grey;
+	font-size: 57px;
+	font-family: "Champagne & Limousines"; 
+	font-style: normal;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font size: 35px;
+	font-family: "Champagne & Limousines";
+}
+
+h3{
+	text-align: center;
+	color: grey;
+	font-size: 20px;
+		font-family: "Champagne & Limousines"; 
+			font-style: italic;
+
+
+}
+
+.flex{
+	display: flex;
+	width: 90%;
+	margin: 20px;
+
+}
+
+.maincontainer{
+	width: 1300px;
+	height: 850px;
+	background-color:#fdebfb;
+
+}
+.titlebox{
+	width: 540px;
+	height:120px;
+	margin-left: 17%;
+}
+
+.descriptionbox{
+	width: 400px;
+	height: 250px;
+	text-align: center;
+
+}
+
+.leftcontainer{
+		background-color: black;
+width: 30%;
+height: 650px;
+align-content: left;
+}
+
+.rightcontainer{
+width: 50%;
+height: 550px;
+margin-left: 35%;
+align-content: right;
+}
+
+.red{
+	background-color: red;
+	width: 30%;
+height: 400px;
+margin-left:10%;
+margin-right:10%;
+}
+
+.blue{
+	background-color: blue;
+	width: 60%;
+	height: 270px;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+.green{
+	background-color: green;
+	width: 50%;
+	height: 150px;
+	margin-right:0%;
+}
+
+.grey{
+	background-color: grey;
+	width: 65%;
+	height: 240px;
+	margin-right:0%;
+}
+
+.yellow{
+	background-color: yellow;
+	width: 35%;
+	height: 240px;
+	margin-right:0%;
+}
+
+.brown{
+	background-color: brown;
+	width: 45px;
+	height: 40px;
+}
+
+.purple{
+		background-color: purple;
+	width: 45px;
+	height: 5px;
+}
+
+
+.pink{
+		background-color: pink;
+	width: 45px;
+	height: 25px;
+}
+
+.bottombox{
+	width: 400px;
+height: 100px;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
+
+.flex-horizontal{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.dot {
+    height: 290px;
+    width: 290px;
+    background-color: orange;
+    margin-left: 50%;
+    border-radius: 50%;
+
+}
+
+.dot2 {
+    height: 290px;
+    width: 290px;
+    background-color: orange;
+    margin-left: 65%;
+    border-radius: 50%;
+
+}
+
+
+.dot p {
+	text-align: justify-all;
+}
