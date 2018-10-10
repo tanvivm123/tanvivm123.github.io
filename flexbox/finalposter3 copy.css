@@ -1,6 +1,13 @@
-body{
+/*body{
 	background-color: black;
+}*/
+
+html {
+    background-image: url('./blackbgfood.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 
 div{
 	
@@ -22,9 +29,10 @@ h1{
 h2{
 	text-align: center;
 	color: #f3e5b1;
-	font size: 35px;
+	font size: 40px;
 	font-family: "Champagne & Limousines";
 		font-weight: normal;
+				font-style: italic;
 }
 
 h3{
@@ -32,7 +40,7 @@ h3{
 	color: #f3e5b1;
 	font-size: 25px;
 		font-family: "Champagne & Limousines"; 
-			font-style: italic;
+			font-style: nromal;
 				font-weight: normal;
 				text-align: left;
 
@@ -52,7 +60,7 @@ h3{
 .titlebox{
 	width: 37%;
 	height:10%;
-	margin-left: 17%;
+	margin-left: 14.8%;
 }
 
 .descriptionbox{
@@ -65,7 +73,7 @@ h3{
 }
 
 .leftcontainer{
-		background-color: #f3e5b1;
+/*		background-color: #f3e5b1;*/
 width: 70px;
 height: 100px;
 align-content: left;
@@ -73,7 +81,7 @@ margin-left:3%;
 }
 
 .rightcontainer{
-		background-color: #f3e5b1;
+/*		background-color: #f3e5b1;*/
 width: 70px;
 height: 100px;
 align-content: right;
@@ -136,8 +144,9 @@ ______________________________________
 
 .bottombox{
 	width: 600px;
-height: 100px;
-margin-top: 10px;
+height: 0px;
+margin-top: -20%;
+margin-left: 24%;
 }
 
 .space-around{
