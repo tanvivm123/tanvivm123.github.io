@@ -1,0 +1,182 @@
+
+
+div{
+	
+}
+
+a{
+	color: black;
+	font-style: italic;
+	we
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-size: 57px;
+	font-family: "Champagne & Limousines"; 
+	font-style: normal;
+	font-weight: normal;
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font size: 35px;
+	font-family: "Champagne & Limousines";
+		font-weight: normal;
+}
+
+h3{
+	text-align: center;
+	color: black;
+	font-size: 22px;
+		font-family: "Champagne & Limousines"; 
+			font-style: normal;
+				font-weight: normal;
+
+}
+
+
+h4{
+	text-align: center;
+	color: black;
+	font size: 45px;
+	font-family: "Champagne & Limousines";
+		font-weight: bold;
+}
+
+
+.flex{
+	display: flex;
+/*	width: 90%;
+	margin: 20px;*/
+
+}
+
+.maincontainer{
+	width: 1300px;
+	height: 900px;
+	background-color:white;
+
+}
+.titlebox{
+	width: 55%;
+	height: 5%
+	margin-left: 30%;
+}
+
+.descriptionbox{
+	width: 90%;
+	height: 70%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.leftcontainer{
+		background-color: black;
+width: 18%;
+height: 650px;
+align-content: left;
+}
+
+.rightcontainer{
+		background-color: white;
+width: 78%;
+height: 650px;
+align-content: right;
+}
+
+.red{
+	background-color: red;
+	width: 100%;
+height: 100%;
+margin-left:0%;
+}
+
+.blue{
+	background-color: blue;
+	width: 100%;
+	height: 240px;
+	margin-left:0%;
+}
+
+.green{
+/*	background-color: green;*/
+	width: 100%;
+	height: 150px;
+	margin-right:0%;
+}
+
+.white{
+	background-color: white;
+	width: 60%;
+	height: 461px;
+	border: black solid 1px;
+	margin-right:3%;
+}
+
+.lightgrey{
+	background-color: #D3D3D3;
+	width: 35%;
+	height: 461px;
+	margin-right:0%;
+}
+
+.brown{
+	background-color: brown;
+	width: 45px;
+	height: 40px;
+}
+
+.purple{
+		background-color: purple;
+	width: 45px;
+	height: 5px;
+}
+
+
+.pink{
+		background-color: pink;
+	width: 45px;
+	height: 25px;
+}
+
+.bottombox{
+	width: 600px;
+height: 100px;
+margin-right: 8%;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
+
+.flex-horizontal{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.dot {
+    height: 370px;
+    width: 370px;
+    background-color: #FEFFE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot p {
+	text-align: justify-all;
+}
