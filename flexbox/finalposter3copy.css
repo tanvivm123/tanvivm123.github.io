@@ -21,9 +21,9 @@ h1{
 	text-align: center;
 	color: #f3e5b1;
 	font-size: 57px;
-	font-family: "Champagne & Limousines"; 
+	font-family: "Times New Roman"; 
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 h2{
@@ -59,7 +59,7 @@ h3{
 }
 .titlebox{
 	width: 37%;
-	height:10%;
+	height:5%;
 	margin-left: 14.8%;
 }
 

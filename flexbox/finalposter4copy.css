@@ -1,0 +1,116 @@
+/*html {
+    background-image: url('./fdbgfruits.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+
+div{
+	
+}
+
+a{color: black}
+
+h1{
+	text-align: right;
+	color: black;
+	font-size: 45px;
+	font-family: "playfair display"; 
+	font-weight: lighter;
+}
+
+h2{
+	text-align: right;
+	color: black;
+	font size: 35px;
+		font-family: "open sans condensed"; 
+		font-style: italic;
+}
+
+h3{
+	text-align: right;
+	color: black;
+	font-size: 21px;
+	font-family: "open sans condensed";  
+		font-style: normal;
+}
+
+.maincontainer{
+	width: 25%;
+	height: 400px;
+	background-color:white;
+	margin-left: 55%;
+	margin-top: -32%;
+/*	margin-bottom: 10%;*/
+	opacity: 0.8;
+}
+
+.flex{
+	display: flex;
+	width: 100%;
+	margin: 20px;
+
+}
+
+.titlebox{
+	width: 90%;
+	height:85px;
+	text-align: right;
+	margin: center;
+	margin-right: 15%
+}
+
+.descriptionbox{
+	width: 90%;
+	height: 200px;
+	text-align: center;
+	margin-right: 20%;
+}
+
+.red{
+	background-color: red;
+	width: 100px;
+height: 100px;
+}
+
+.bottombox{
+	width: 100%;
+height: 40px;
+margin-right: -10%;
+margin-bottom: 10%;
+}
+
+.brown{
+	background-color: brown;
+	width: 3%;
+height: 300px;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 400px;
+	flex-direction: column;
+}
+
+.image{
+	margin-top: 6%;
+}
+
+.dot {
+    height: 370px;
+    width: 370px;
+    background-color: #FEFFE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot p {
+	text-align: justify-all;
+}

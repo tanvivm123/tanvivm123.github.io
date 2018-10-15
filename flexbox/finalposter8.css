@@ -13,8 +13,8 @@ a{
 h1{
 	text-align: center;
 	color: white;
-	font-size: 76px;
-	font-family: "Champagne & Limousines"; 
+	font-size: 61px;
+	font-family: "Lora"; 
 	font-style: normal;
 	font-weight: normal;
 }
@@ -23,8 +23,8 @@ h2{
 	text-align: center;
 	color: white;
 	font size: 30px;
-	font-family: "Champagne & Limousines";
-	font-weight: bold;
+	font-family: "lora";
+	font-weight: lighter;
 	font-style: italic;
 }
 
