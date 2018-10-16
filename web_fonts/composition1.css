@@ -1,0 +1,87 @@
+/*@font-face{
+	font-family: "bubbles";
+	src :url("fonts/VTF_Mixo.woff2") format("woff2");
+
+}*/
+
+h1{ font-family: "forum";
+    font-weight: bold;
+    font-size: 100px;
+
+}
+
+
+h2{
+	font-family: "forum";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3{
+    font-family: "forum";
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4{
+    font-family: "forum";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+	width: 200px;
+	    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.smallfont{
+        font-family: "forum";
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bigfont{
+    font-family: "forum";
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.frostbox{
+    width: 700px;
+    margin-left: 410px;
+    margin-top: 550px;
+}
+
+.content-wrapper{
+	    margin-left: 40px;
+/*        background-color: red;*/
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+.titlebox{
+        transform: translate(-50%, -100%) rotate(-90deg);
+    transition: transform 1s;
+    position: absolute;
+    top: 200px;
+    left: 17px;
+    margin: 0;
+    width: 500px;
+}
+
+section{
+	transform: rotate(25deg);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
