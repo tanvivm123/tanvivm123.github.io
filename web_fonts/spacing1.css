@@ -1,0 +1,96 @@
+html{
+    background-color: black;
+}
+
+h1{ font-family: "forum";
+    font-weight: bold;
+    font-size: 100px;
+        color: white;
+
+}
+
+
+h2{
+	font-family: "forum";
+    font-weight: bold;
+    font-size: 50px;
+        color: white;
+}
+
+h3{
+    font-family: "forum";
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+        color: white;
+}
+
+h4{
+    font-family: "forum";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+        color: white;
+}
+
+p{
+	width: 200px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+        color: white;
+
+}
+
+.smallfont{
+        font-family: "forum";
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+        color: white;
+}
+
+.bigfont{
+    font-family: "forum";
+    font-weight: bold;
+    font-size: 270px;
+    margin-top: -52%;
+    margin-left: -60%;
+        color: white;
+}
+
+.frostbox{
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 550px;
+        color: white;
+}
+
+.content-wrapper{
+	    margin-left: 150%;
+        margin-top: 210%;
+        font-size: 12px;
+            color: white;
+/*    border-left: 1px solid black;*/
+/*    padding-left: 20px;*/
+}
+
+.titlebox{
+        transform: /*translate(-50%, -100%)*/ rotate(90deg);
+    transition: transform 1s;
+    position: absolute;
+    top: 200px;
+    left: -340px;
+    width: 1000px;
+    font-size: 270px;
+    margin-bottom: -100px;
+        color: white;
+}
+
+section{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
