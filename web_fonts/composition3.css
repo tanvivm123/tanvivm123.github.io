@@ -33,7 +33,7 @@ h4{
 
 p{
 	width: 200px;
-	    display: block;
+	display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -51,35 +51,37 @@ p{
 .bigfont{
     font-family: "forum";
     font-weight: bold;
-    font-size: 100px;
-    margin-top: -10%;
-    margin-left: 5%;
+    font-size: 270px;
+    margin-top: -52%;
+    margin-left: -60%;
 }
 
 .frostbox{
-    width: 700px;
+    width: 500px;
     margin-left: 410px;
     margin-top: 550px;
 }
 
 .content-wrapper{
-	    margin-left: 40px;
-    border-left: 1px solid black;
-    padding-left: 20px;
+	    margin-left: 150%;
+        margin-top: 210%;
+        font-size: 12px;
+/*    border-left: 1px solid black;*/
+/*    padding-left: 20px;*/
 }
 
 .titlebox{
-        transform: translate(-50%, -100%) rotate(-90deg);
+        transform: /*translate(-50%, -100%)*/ rotate(90deg);
     transition: transform 1s;
     position: absolute;
     top: 200px;
-    left: 17px;
-    margin: 0;
-    width: 500px;
+    left: -340px;
+    width: 1000px;
+    font-size: 270px;
+    margin-bottom: -100px;
 }
 
 section{
-	transform: rotate(25deg);
     position: absolute;
     top: 150px;
     left: 200px;
