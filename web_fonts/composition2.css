@@ -1,8 +1,4 @@
-/*@font-face{
-	font-family: "bubbles";
-	src :url("fonts/VTF_Mixo.woff2") format("woff2");
 
-}*/
 
 h1{ font-family: "forum";
     font-weight: bold;
@@ -14,7 +10,7 @@ h1{ font-family: "forum";
 h2{
 	font-family: "forum";
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3{
@@ -32,55 +28,64 @@ h4{
 }
 
 p{
-	width: 200px;
+	width: 1000px;
 	    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-style: italic;
+
 
 }
 
 .smallfont{
         font-family: "forum";
-    font-size: 36px;
+    font-size: 9.5px;
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }
 
 .bigfont{
     font-family: "forum";
-    font-weight: bold;
-    font-size: 100px;
-    margin-top: -10%;
-    margin-left: 5%;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 9.5px;
+    margin-top: -5%;
+    margin-left: 0;
 }
 
 .frostbox{
     width: 700px;
-    margin-left: 410px;
-    margin-top: 550px;
+    margin-left: 390px;
+    margin-top: 580px;
+/*        transform: rotate(35deg);*/
 }
 
 .content-wrapper{
-	    margin-left: 40px;
-/*        background-color: red;*/
-    border-left: 1px solid black;
+	    margin-left: -20px;
+        margin-bottom: -10px;
+        position: absolute;
     padding-left: 20px;
+
 }
+
+.singleline{
+    font-size: 9.5px;
+}
+
 
 .titlebox{
         transform: translate(-50%, -100%) rotate(-90deg);
     transition: transform 1s;
     position: absolute;
-    top: 200px;
-    left: 17px;
+    top: 2%;
+    left: 10%;
     margin: 0;
     width: 500px;
 }
 
 section{
-	transform: rotate(25deg);
     position: absolute;
     top: 150px;
     left: 200px;
