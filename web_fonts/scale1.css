@@ -1,0 +1,191 @@
+html{
+    background-color: white;
+}
+
+h1{ font-family: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 100px;
+    color: #6737e6;
+
+}
+
+
+
+h2{
+	font-family: "Ubuntu Mono";
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h3{
+    font-family: "Ubuntu Mono";
+    font-size: 30px;
+    font-weight: normal;
+        color: black;
+}
+
+h4{
+    font-family: "Ubuntu Mono";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+        color: black;
+}
+
+p{
+	width: 200px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+        color: white;
+        font-family: "Ubuntu Mono";
+
+}
+
+
+
+.smallfont{
+    font-family: "Ubuntu Mono";
+    transform: rotate(25deg);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50%;
+    font-size: 150px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.titlebox{
+    position: absolute;
+    top: -50px;
+    left: 300px;
+    width: 1000px;
+    font-size: 400px;
+    margin-bottom: -100px;
+        color: black;
+        padding-left: 6px;
+
+}
+
+.rfont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+     transform: rotate(-35deg); 
+    font-size: 1700px;
+    margin-top: -60%;
+    margin-left: -10%;
+    color: black;
+/*    z-index: -1;*/
+}
+
+.ofont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    transform: rotate(15deg); 
+    position: absolute;
+    font-size: 700px;
+    margin-top: -100%;
+    margin-left: 40%;
+    color: black;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+
+}
+
+.bfont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    transform: rotate(-12deg); 
+    position: absolute;
+    font-size: 450px;
+    margin-top: -75%;
+    margin-left: 70%;
+    color: black;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+}
+
+.rrfont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    transform: rotate(22deg); 
+    position: absolute;
+    font-size: 390px;
+    margin-top: -80%;
+    margin-left: 94%;
+    color: black;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+
+}
+
+.efont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    transform: rotate(-2deg); 
+    position: absolute;
+    font-size: 300px;
+    margin-top: -81%;
+    margin-left: 84%;
+    color: black;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+}
+
+
+
+.tfont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    transform: rotate(-35deg); 
+    position: absolute;
+    font-size: 270px;
+    margin-top: -65%;
+    margin-left: 110%;
+    color: black;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+}
+
+.lowercase{
+    transform: rotate(90deg);
+    font-family: "Ubuntu Mono";
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 800px;
+    font-size: 75px;
+    margin-bottom: -100px;
+    color: black;
+}
+
+.frostbox{
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 550px;
+        color: white;
+}
+
+.content-wrapper{
+    transform: rotate(-35deg);
+    margin-left: -8%;
+    margin-top: -138.5%;
+    font-size: 10px;
+}
+.justbold{
+    font-weight: bold;
+    font-size: 20px;
+color: white;
+    width: 200px;
+    font-family: "Ubuntu Mono"
+}
+
+
+section{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}

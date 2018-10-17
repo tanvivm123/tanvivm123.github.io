@@ -1,5 +1,5 @@
 html{
-    background-color: white;
+    background-color: orange;
 }
 
 h1{ font-family: "Ubuntu Mono";
@@ -33,7 +33,7 @@ h4{
 }
 
 p{
-	width: 400px;
+	width: 200px;
 	display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -41,17 +41,23 @@ p{
     margin-inline-end: 0px;
         color: black;
         font-family: "Ubuntu Mono";
-
 }
 
 
 
 .smallfont{
-        font-family: "Ubuntu Mono";
-    font-size: 36px;
-    font-weight: normal;
+    font-family: "Ubuntu Mono";
+    transform: rotate(0deg);
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -10%;
+    font-size: 100px;
+    font-weight: bold;
     font-style: normal;
-        color: black;
+    color: black;
+    width: 950px;
+
+
 }
 
 .titlebox{
@@ -68,14 +74,26 @@ p{
 
 .rfont{
     font-family: "Ubuntu Mono";
-    font-weight: lighter;
-    /* transform: rotate(-35deg); */
-    position: absolute;
+    font-weight: bolder;
     font-size: 350px;
-    margin-top: -10%;
-    margin-left: -30%;
+/*    position: absolute;*/
+    margin-top: 13%;
+    margin-left: -10%;
+    color: white;
+        opacity: 0.9;
+/*    z-index: -1;*/
+}
+
+.ffont{
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    font-size: 350px;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: -10%;
     color: black;
-    z-index: -1;
+    opacity: 0.4;
+    z-index: 1;
 }
 
 
@@ -90,38 +108,23 @@ p{
     color: black;
 }
 
-.frostbox{
-    width: 500px;
-    margin-left: 410px;
-    margin-top: 550px;
-        color: white;
-}
 
 .content-wrapper{
-    transform: rotate(35deg);
-    margin-left: 85%;
-    margin-top: 43%;
-    font-size: 27px;
+    transform: rotate(0deg);
+    margin-left: 73.3%;
+    margin-top: -57%;
+    font-size: 10px;
+    width: 160px;
+    padding: 10px;
 }
 .justbold{
     font-weight: bold;
-    font-size: 27px;
-
-    width: 400px;
+    font-size: 20px;
+color: black;
+    width: 200px;
     font-family: "Ubuntu Mono"
 }
 
-.redbox{
-                transform: rotate(35deg);
-    width: 110%;
-    height: 98%;
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 54%;
-    background-color: white;
-    border-left: black solid 2px;
-    
-}
 
 section{
     position: absolute;
