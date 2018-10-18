@@ -1,3 +1,14 @@
+@font-face{
+    font-family: "OpenSansCondensedLight";
+    src:url("fonts/OpenSansCondensed-Light.woff2") format("woff2");
+}
+
+/*@font-face{
+    font-family: "OpenSansCondensedBold";
+    src:url("fonts/OpenSansCondensed-Bold.woff2") format("woff2");
+}*/
+
+
 html {
     background-image: url('./fdbgfruits.jpg');
     background-repeat: no-repeat;
@@ -14,7 +25,7 @@ h1{
 	text-align: center;
 	color: black;
 	font-size: 57px;
-	font-family: "open sans condensed"; 
+	font-family: "OpenSansCondensedLight";
 }
 
 h2{

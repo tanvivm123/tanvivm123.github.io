@@ -1,6 +1,8 @@
-/*body{
-	background-color: black;
-}*/
+@font-face{
+    font-family: "ChampagneLimousine";
+    src:url("fonts/Champagne & Limousines.woff2") format("woff2");
+}
+
 
 html {
     background-image: url('./blackbgfood.jpg');

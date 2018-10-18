@@ -1,4 +1,12 @@
+@font-face{
+    font-family: "ChampagneLimousine";
+    src:url("fonts/Champagne & Limousines.woff2") format("woff2");
+}
 
+@font-face{
+    font-family: "CormorantGaramond";
+    src:url("fonts/CormorantGaramond-Regular.woff2") format("woff2");
+}
 
 div{
 	

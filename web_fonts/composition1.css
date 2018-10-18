@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: "forum";
+    src:url("fonts/Forum-Regular.woff2") format("woff2");
+}
 
 h1{ font-family: "forum";
     font-weight: bold;

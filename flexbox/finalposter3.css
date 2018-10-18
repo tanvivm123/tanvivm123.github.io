@@ -1,6 +1,7 @@
-/*body{
-	background-color: black;
-}*/
+@font-face{
+    font-family: "champagnelimousine";
+    src:url("fonts/Champagne & Limousines Bold.woff2") format("woff2");
+}
 
 html {
     background-image: url('./blackbgfood.jpg');
@@ -40,7 +41,7 @@ h3{
 	color: #f3e5b1;
 	font-size: 25px;
 		font-family: "Champagne & Limousines"; 
-			font-style: nromal;
+			font-style: normal;
 				font-weight: normal;
 				text-align: left;
 

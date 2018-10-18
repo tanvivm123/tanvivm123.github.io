@@ -1,8 +1,22 @@
-/*html {
-    background-image: url('./fdbgfruits.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}*/
+@font-face{
+    font-family: "OpenSansCondensedLight";
+    src:url("fonts/OpenSansCondensed-Light.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "OpenSansCondensedBold";
+    src:url("fonts/OpenSansCondensed-Bold.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "playfairdisplaybold";
+    src:url("fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "playfairdisplayitalic";
+    src:url("fonts/PlayfairDisplay-Italic.woff2") format("woff2");
+}
 
 div{
 	

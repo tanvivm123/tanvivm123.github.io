@@ -1,3 +1,17 @@
+@font-face{
+    font-family: "Forum";
+    src:url("fonts/Forum-Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "ChampagneLimousine";
+    src:url("fonts/Champagne & Limousines.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "moonflower";
+    src:url("fonts/Moon Flower.woff2") format("woff2");
+}
 
 div{
 	
