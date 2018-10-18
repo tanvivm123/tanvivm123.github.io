@@ -4,8 +4,9 @@
 }
 
 @font-face{
-    font-family: "Ubuntu Mono";
+    font-family: "Ubuntu Mono Bold";
     src:url("fonts/UbuntuMono-Bold.woff2") format("woff2");
+}
 
 html{
     background-color: white;
