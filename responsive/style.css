@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+/*start of my mobile layout!*/
+p{
+		font-size:20px;
+	}
+
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.cube{
+	margin: 20px auto;
+	width: 50vw;
+	height: 50vw;
+	/*vw=view width and vh=view height*/
+	background-color: blue;
+}
+
+/*end of my mobile layout*/
+
+/*tablet stuff*/
+@media (min-width: 700px) and (max-width: 1024px){
+
+	p{
+		font-size:40px;
+	}
+	.flex{
+		/*flex wrap tells the cubes to wrap around*/
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	}
+
+	.cube{
+	width: 100px;
+	height: 100px;
+	}
+}
+
