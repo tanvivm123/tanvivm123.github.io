@@ -1,0 +1,189 @@
+@font-face{
+    font-family: "Ubuntu Mono";
+    src:url("fonts/UbuntuMono-Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Ubuntu Mono Bold";
+    src:url("fonts/UbuntuMono-Bold.woff2") format("woff2");
+}
+
+ html{
+    background-color: #2D2D2D;
+}
+
+h1{ font-family: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 100px;
+    color: orange;
+
+}
+
+
+
+h2{
+	font-family: "Ubuntu Mono";
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h3{
+    font-family: "Ubuntu Mono";
+    font-size: 30px;
+    font-weight: normal;
+        color: orange;
+}
+
+h4{
+    font-family: "Ubuntu Mono";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+        color: orange;
+}
+
+p{
+	width: 200px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+        color: orange;
+        font-family: "Ubuntu Mono";
+}
+
+
+
+.smallfont{
+    font-family: "Ubuntu Mono";
+    transform: rotate(0deg);
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -10%;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    color: orange;
+    width: 950px;
+
+
+}
+
+.titlebox{
+    position: absolute;
+    top: -50px;
+    left: 300px;
+    width: 1000px;
+    font-size: 400px;
+    margin-bottom: -100px;
+        color: orange;
+        padding-left: 6px;
+
+}
+
+.rfont{
+        transform: rotate(-25deg);
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 175%;
+    margin-left: 90%;
+    color: orange;
+    width: 100px;
+}
+
+.ffont{
+    transform: rotate(-25deg);
+    font-family: "Ubuntu Mono";
+    font-weight: bolder;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 44.5%;
+    margin-left: -15%;
+    color: orange;
+}
+
+
+.lowercase{
+    transform: rotate(90deg);
+    font-family: "Ubuntu Mono";
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 800px;
+    font-size: 75px;
+    margin-bottom: -100px;
+    color:orange;
+}
+
+
+.content-wrapper{
+    transform: rotate(-25deg);
+    margin-left: 10%;
+    margin-top: 190%;
+    font-size: 10px;
+    width: 160px;
+    padding: 10px;
+
+}
+.titlerose1{
+    transform: rotate(-60deg);
+    font-weight: lighter;
+    font-size: 26px;
+    color: orange;
+    margin-left: 410px;
+    width: 300px;
+    font-family: "Ubuntu Mono";
+    position: absolute
+}
+
+.titlerose2{
+    transform: rotate(-80deg);
+    font-weight: lighter;
+    font-size: 26px;
+    color: orange;
+    margin-left: 410px;
+    width: 300px;
+    font-family: "Ubuntu Mono";
+    position: absolute
+}
+
+.titlerose3{
+    transform: rotate(-40deg);
+    font-weight: lighter;
+    font-size: 26px;
+    color: orange;
+    margin-left: 410px;
+    width: 300px;
+    font-family: "Ubuntu Mono";
+    position: absolute
+}
+
+.titlerose4{
+    transform: rotate(-100deg);
+    font-weight: lighter;
+    font-size: 26px;
+    color: orange;
+    margin-left: 410px;
+    width: 300px;
+    font-family: "Ubuntu Mono";
+    position: absolute
+}
+
+.titlerose5{
+    transform: rotate(-20deg);
+    font-weight: lighter;
+    font-size: 26px;
+    color: orange;
+    margin-left: 410px;
+    width: 300px;
+    font-family: "Ubuntu Mono";
+    position: absolute
+}
+
+section{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
