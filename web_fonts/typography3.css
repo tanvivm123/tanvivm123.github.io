@@ -16,7 +16,7 @@
 
 
  html{
-    background-color: orange;
+    background-color: skyblue;
 }
 
 h1{ font-family: "Ubuntu Mono";
@@ -53,7 +53,7 @@ p{
     font-size: 40px;
     margin-top: -6%;
     margin-left: 49.7%;
-    color: black;
+    color: darkblue;
 }
 
 .rosetitle{
@@ -71,8 +71,9 @@ p{
     margin-top: -1%;
     font-size: 20px;
     width: 200px;
-    font-weight: bold;
+/*    font-weight: bold;*/
     font-family: PlayfairDisplay-Regular;
+    color: white;
 
 }
 .content-wrapper2{
@@ -114,8 +115,9 @@ p{
 .content-wrapper7{
     margin-left: 50%;
     font-size: 13px;
-    font-weight: 900;
+/*    font-weight: 900;*/
     font-family: PlayfairDisplay-Regular;
+    color: white;
 
 }
 .content-wrapper8{
@@ -137,8 +139,9 @@ p{
     margin-top: -1.7%;
     font-size: 20px;
     width: 290px;
-    font-weight: bolder;
+/*    font-weight: bolder;*/
     font-family: PlayfairDisplay-Regular;
+    color: white;
 }
 
 
