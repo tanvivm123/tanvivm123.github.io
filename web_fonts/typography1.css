@@ -1,0 +1,182 @@
+@font-face{
+    font-family: "Ubuntu Mono";
+    src:url("fonts/UbuntuMono-Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Ubuntu Mono Bold";
+    src:url("fonts/UbuntuMono-Bold.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "PlayfairDisplay-Regular";
+    src:url("fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+}
+
+
+
+ html{
+    background-color: #fff2e6;
+}
+
+h1{ font-family: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 100px;
+    color: #6737e6;
+
+}
+
+
+p{
+	width: 400px;
+
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.ffont{
+    font-family: "SnellRoundhand";
+    font-size: 40px;
+    margin-top: -6%;
+    margin-left: 49.7%;
+    color: black;
+    width: 400px;
+}
+
+.rosetitle{
+    font-size: 55px;
+    color: black;
+    font-family: "Sardonyx";
+    margin-left: 49.8%;
+    margin-top: 2%;
+    width: 600px;
+}
+
+.content-wrapper1{
+    margin-left: 50%;
+    margin-top: -1%;
+    font-size: 20px;
+    width: 600px;
+    font-weight: bold;
+    font-family: "SnellRoundhand";
+     color: black;
+}
+
+.content-wrapper-rose{
+    font-size: 30px;
+    font-family: "Sardonyx";
+    color: black;
+    width: auto;
+    font-weight: normal;
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 18.5%;
+}
+
+.content-wrapper-theory{
+    font-size: 30px;
+    font-family: "Sardonyx";
+    color: black;
+    width: auto;
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 62.5%;
+}
+
+.content-wrapper-you{
+    font-size: 30px;
+    font-family: "Sardonyx";
+    color: black;
+    width: auto;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 50.1%;
+}
+
+.content-wrapper-always{
+    font-size: 30px;
+    font-family: "Sardonyx";
+    color: black;
+    width: auto;
+    position: absolute;
+    margin-top: -7.7%;
+    margin-left: 65%;
+}
+
+/*
+.content-wrapper3{
+    margin-left: 50%;
+    font-size: 10px;
+    font-family: SnellRoundhand;
+    color: black;
+
+}
+.content-wrapper4{
+    margin-left: 50%;
+    font-size: 11px;
+    font-family: SnellRoundhand;
+    color: black;
+
+}
+.content-wrapper5{
+    margin-left: 50%;
+    font-size: 8px;
+    font-family: SnellRoundhand;
+     color: black;
+
+}
+.content-wrapper6{
+    margin-left: 50%;
+    font-size: 10px;
+    font-family: SnellRoundhand;
+     color: black;
+
+}
+.content-wrapper7{
+    margin-left: 50%;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: SnellRoundhand;
+     color: black;
+
+}
+.content-wrapper8{
+    margin-left: 50%;
+    font-size: 9px;
+    font-family: SnellRoundhand;
+     color: black;
+}
+
+.content-wrapper9{
+    margin-left: 50%;
+    font-size: 11px;
+    font-family: SnellRoundhand;
+     color: black;
+}
+
+.content-wrapper10{
+    margin-left: 50%;
+    margin-top: -1.7%;
+    font-size: 20px;
+    width: 290px;
+    font-weight: bolder;
+    font-family: SnellRoundhand;
+     color: black;
+}
+
+*/
+
+section{
+    position: absolute;
+    top: 150px;
+    left: -50px;
+}
