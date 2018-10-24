@@ -1,17 +1,13 @@
 @font-face{
-    font-family: "Ubuntu Mono";
-    src:url("fonts/UbuntuMono-Regular.woff2") format("woff2");
+    font-family: "Sardonyx";
+    src:url("fonts/Sardonyx.woff2") format("woff2");
 }
 
 @font-face{
-    font-family: "Ubuntu Mono Bold";
-    src:url("fonts/UbuntuMono-Bold.woff2") format("woff2");
+    font-family: "SnellRoundhand";
+    src:url("fonts/SnellRoundhand.woff2") format("woff2");
 }
 
-@font-face{
-    font-family: "PlayfairDisplay-Regular";
-    src:url("fonts/PlayfairDisplay-Regular.woff2") format("woff2");
-}
 
 
 
