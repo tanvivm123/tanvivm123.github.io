@@ -81,7 +81,7 @@ p{
 
 .titlebox{
         transform: translate(-50%, -100%) rotate(-90deg);
-    transition: transform 1s;
+    transition: transform 2s;
     position: absolute;
     top: 2%;
     left: 10%;
