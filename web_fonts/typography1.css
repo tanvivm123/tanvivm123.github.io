@@ -28,6 +28,16 @@ p{
 
 }
 
+.navigation-div{
+  align-items:center;
+  text-align:center;
+  align-content: center;
+  position: absolute;
+  width: 400px;
+  margin-left: -360%;
+/*  margin-top: 60%;*/
+}
+
 .flex{
     display: flex;
     width: 100%;

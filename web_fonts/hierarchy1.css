@@ -53,6 +53,15 @@ p{
         font-family: "Ubuntu Mono";
 }
 
+.navigation-div{
+  align-items:center;
+  text-align:center;
+  align-content: center;
+  position: absolute;
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 70%;
+}
 
 
 .smallfont{

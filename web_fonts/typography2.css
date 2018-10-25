@@ -33,6 +33,17 @@ p{
 
 }
 
+
+.navigation-div{
+  align-items:center;
+  text-align:center;
+  align-content: center;
+/*  position: absolute;*/
+  width: 400px;
+  margin-left: 10%;
+  margin-top: 38%;
+}
+
 .flex{
     display: flex;
     width: 100%;

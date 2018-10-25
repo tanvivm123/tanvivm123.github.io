@@ -49,6 +49,16 @@ p{
 
 }
 
+.navigation-div{
+  align-items:center;
+  text-align:center;
+  align-content: center;
+  position: absolute;
+  width: 400px;
+  margin-left: 40%;
+  margin-top: 60%;
+}
+
 .smallfont{
         font-family: "forum";
     font-size: 36px;

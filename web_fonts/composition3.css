@@ -49,7 +49,18 @@ p{
 
 }
 .navigation-div{
-  
+  align-items:center;
+  text-align:center;
+  align-content: center;
+  position: absolute;
+  width: 400px;
+  margin-left: 102%;
+}
+
+.positionround{
+  margin-left: 15%;
+  margin-top: 2%;
+  position: absolute;
 }
 
 .smallfont{
@@ -74,15 +85,15 @@ p{
 .frostbox{
     width: 500px;
     height: 500px;
-    margin-left: 280px;
-    margin-top: 580px;
+    margin-left: 5.6%;
+    margin-top: 114%;
     color: white;
     line-height: 110px;
 }
 
 .content-wrapper{
 	    margin-left: 175%;
-        margin-top: 150%;
+        margin-top: 170%;
         font-size: 12px;
             color: white;
 /*    border-left: 1px solid black;*/
@@ -103,15 +114,16 @@ p{
 
 section{
     position: absolute;
-    top: 150px;
-    left: 200px;
+    top: 30%;
+    left: 12%;
 }
 
 .estrellas {
   position: relative;
   width: 520px;
   height:300px;
-  margin: 0 auto;
+    margin-left: 15%;
+    margin-top: -1%;
   font-size: 70px;
   font-family: forum;
   font-weight: bold;
