@@ -1,80 +1,264 @@
-.sun-wrapper{
-	height: 200px;
-	width: 200px;
+body{
+	background-color: #F8F8F8 /*#C3CDE6*/;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.heart-wrapper{
+	height: 250px;
+	width: 250px;
+	position:absolute;
+	border-radius: 125px;
+	top: 30%;
+	left: 39%;
 	overflow: hidden;
-	border: 1px solid black;
-	background-color: lightblue;
+	background-color: #F8F8F8;
 	transition: background 1s ease-in-out;
-
-}
-
-.sun-wrapper:hover {
-	background-color: #ff2b0f;
-}
-
-.sun-wrapper:hover .sun{
-	background-color: red;
-transform: translateY(200px);
+	animation-iteration-count: infinite;
 
 }
 
 
-.sun{
-	width: 200px;
-	height: 200px;
-	background-color: orange;
-	border-radius: 100px;
+.heart-wrapper:hover {
+	background-color: #910d3f ;
+	justify-content: center;
+}
+
+.heart-wrapper:hover .heart{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper:hover .heart-1{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper:hover .heart-r{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2{
+	height: 250px;
+	width: 250px;
+	position:absolute;
+	border-radius: 125px;
+	top: 60%;
+	left: 12%;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	transition: background 1s ease-in-out;
+	animation-iteration-count: infinite;
+
+}
+
+.heart-wrapper2:hover {
+	background-color: #910d3f ;
+	justify-content: center;
+}
+
+.heart-wrapper2:hover .heart2{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2:hover .heart-1{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2:hover .heart-r{
+	background-color: pink/*#c70039*/;
+}
+
+
+.heart-wrapper3{
+	height: 250px;
+	width: 250px;
+	position:absolute;
+	border-radius: 125px;
+	top: 60%;
+	left: 65%;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	transition: background 1s ease-in-out;
+	animation-iteration-count: infinite;
+
+}
+
+.heart-wrapper3:hover {
+	background-color: #910d3f ;
+	justify-content: center;
+}
+
+.heart-wrapper3:hover .heart3{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper3:hover .heart-1{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper3:hover .heart-r{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4{
+	height: 250px;
+	width: 250px;
+	position:absolute;
+	border-radius: 125px;
+	top: 13%;
+	left: 65%;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	transition: background 1s ease-in-out;
+	animation-iteration-count: infinite;
+
+}
+
+.heart-wrapper4:hover {
+	background-color: #910d3f ;
+	justify-content: center;
+}
+
+.heart-wrapper4:hover .heart4{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4:hover .heart-1{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4:hover .heart-r{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5{
+	height: 250px;
+	width: 250px;
+	position:absolute;
+	border-radius: 125px;
+	top: 12%;
+	left: 12%;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	transition: background 1s ease-in-out;
+	animation-iteration-count: infinite;
+
+}
+
+.heart-wrapper5:hover {
+	background-color: #910d3f ;
+	justify-content: center;
+}
+
+.heart-wrapper5:hover .heart5{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5:hover .heart-1{
+	background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5:hover .heart-r{
+	background-color: pink/*#c70039*/;
+}
+
+.heart{
+	background-color: #c70039;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	top: 50%;
+	left: 36%;
+	transform: rotate(45deg);
+	animation: beat 2s infinite;
 	transition-property:background-color, transform;
-	transition-duration: 4s, 4s;
+	transition-duration: 1s, 1s;
 	transition-timing-function: ease-in-out, linear;
 }
 
-.moon-wrapper{
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
-	background-color: darkblue;
-	overflow: hidden;
-	animation-name: moonsky;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-direction: alternate;
-
-}
-
-.moon{
-	height:200px;
-	width: 200px;
-	border-radius: 100px;
-	background-color: lightyellow;
-	animation-name: riseandset;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	animation-direction: alternate;
-}
-
-@keyframes riseandset{
-	from{
-		transform:translateY(-200px);
-	}
-	to{
-		transform: translateY(200px);
-		background-color: yellow;
-	}
-
-}
-
-@keyframes moonsky {
-	0% {
-		background-color: lightblue;
-	}
-
+@keyframes beat{
 	50%{
-		background-color: pink;
+		transform: rotate(45deg)scale(1.5);
 	}
-	100%{
-		background-color:black;
-	}
+}
+
+.heart-1, .heart-r{
+	background-color: #c70039;
+	height: 40px;
+	width: 70px;
+	position: relative;
+	border-radius: 70px 70px 0px 0px;
+	transition-property:background-color, transform;
+	transition-duration: 1s, 1s;
+	transition-timing-function: ease-in-out, linear;
+
+}
+
+.heart-1{
+		bottom: 38px;
+}
+
+.heart-r{
+	bottom: 25px;
+	right: 52px;
+	transform: rotate(-90deg);
+}
+
+
+.heart2{
+	background-color: #c70039;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	top: 47%;
+	left: 37%;
+	transform: rotate(45deg);
+	animation: beat 2s infinite;
+				transition-property:background-color, transform;
+				transition-duration: 1s, 1s;
+				transition-timing-function: ease-in-out, linear;
+}
+
+
+
+.heart3{
+	background-color: #c70039;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	top: 47%;
+	left: 37%;
+	transform: rotate(45deg);
+	animation: beat 2s infinite;
+				transition-property:background-color, transform;
+				transition-duration: 1s, 1s;
+				transition-timing-function: ease-in-out, linear;
+}
+
+.heart4{
+	background-color: #c70039;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	top: 47%;
+	left: 37%;
+	transform: rotate(45deg);
+	animation: beat 2s infinite;
+				transition-property:background-color, transform;
+				transition-duration: 1s, 1s;
+				transition-timing-function: ease-in-out, linear;
+}
+
+.heart5{
+	background-color: #c70039;
+	height: 70px;
+	width: 70px;
+	position:absolute;
+	top: 47%;
+	left: 37%;
+	transform: rotate(45deg);
+	animation: beat 2s infinite;
+					transition-property:background-color, transform;
+					transition-duration: 1s, 1s;
+					transition-timing-function: ease-in-out, linear;
 }

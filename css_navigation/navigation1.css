@@ -115,7 +115,7 @@ transform: translateY(200px);
 	height:200px;
 	width: 200px;
 /*	border-radius: 100px;*/
-	background-color: #ffc301;
+	background-color:#ff751a /*#ffc301*/;
 	animation-name: updown;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
@@ -129,7 +129,7 @@ transform: translateY(200px);
 	}
 	to{
 		transform: translateY(200px);
-		background-color: yellow;
+		background-color: peachpuff;
 	}
 
 }
