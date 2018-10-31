@@ -1,0 +1,159 @@
+html{
+  background-image: url("unii.jpg");
+}
+
+#earth {
+  position: relative;
+  width: 260px;
+  height: 260px;
+/*  margin: 3em auto;*/
+  background: url(earthmap.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 630px;
+  animation: rotate 4s linear infinite;
+  transition: transform 200ms linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+  color: #000;
+  position: absolute;
+    margin-top: -13%;
+    margin-left: 39%;
+}
+
+#earth:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -80px 15px 80px 10px rgba(0,0,0,.6) inset;
+}
+
+#earth:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 630px 0;}
+}
+
+
+.M-wrapper{
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	transition: background 1s ease-in-out;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 15%;
+	font-size: 90px;
+	color: #5a1846;
+
+}
+
+.M-wrapper:hover {
+	color: pink;
+	transition: 0.70s;
+  	transform: rotate(-30deg);
+/*transform: translateY(100px);*/
+}
+
+
+.Y-wrapper{
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	transition: background 1s ease-in-out;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 21%;
+	font-size: 90px;
+	color: #c70039;
+
+}
+
+.Y-wrapper:hover {
+	color: violet;
+	transition: 0.70s;
+  	transform: rotate(30deg);
+}
+
+.estrellas {
+  position: relative;
+  width: 520px;
+  height:300px;
+  margin: 0 auto;
+  font-size: 70px;
+  color: lightblue;
+}
+.estrellas span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 70px;
+  height: 300px;
+  margin-left: -35px;
+  line-height: 530px; /* height*2 - font-size */
+  text-align: center;
+  transform-origin: top center;
+}
+.estrellas span:nth-of-type(1)  {
+  transform: rotate(50deg);
+}
+.estrellas span:nth-of-type(2)  {
+  transform: rotate(25deg);
+}
+.estrellas span:nth-of-type(3)  {
+  transform: rotate(0deg);
+}
+.estrellas span:nth-of-type(4)  {
+  transform: rotate(-25deg);
+}
+.estrellas span:nth-of-type(5)  {
+  transform: rotate(-50deg);
+}
+
+/* Reverse mode */
+.inverso {
+  font-weight: bold;
+}
+.inverso span {
+  line-height: 70px;
+  transform-origin: bottom center;
+}
+
+.fade{
+        opacity:0.5;
+}
+
+.fade:hover{
+        opacity:1;
+}
+
+h1{
+	font-family: arial;
+	font-weight: bold;
+	font-size:7em;
+	text-align:center;
+	margin: 20px auto;
+	text-transform: uppercase;
+	background:url(sparkly.gif);
+	position: absolute;
+	margin-top: 17%;
+	margin-left: 40%;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
