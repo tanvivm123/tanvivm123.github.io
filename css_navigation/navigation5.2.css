@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body {
+    background-color: black;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+.note {
+  width: 600px;
+  margin: 30px auto;
+  font-weight: bold;
+  font-family: times new roman;
+  font-size: 30px;
+  color:white;
+}
+
+.element {   
+  background-color: #f1c40f; 
+  font-size: 27px;
+  font-family: avenir;
+  color: white;
+  width: 500px; 
+  height: 500px;
+  text-align: justify;
+  shape-inside: polygon (125px 0, 175px 85px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+  shape-padding: 5px;
+  transition: all 3s ease; 
+  -webkit-clip-path: polygon(125px 0, 175px 80px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+} 
+.element:hover{ 
+   shape-inside: polygon (250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  background-color: #FFFFCC;
+  transform: rotate(45deg);
+    animation-name: starr;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+} 
+
+
+@keyframes starr {
+  from, 49% { transform-origin: -50% 100%; }
+  50%, 75%, to { transform-origin: 150% 100%; }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.element {
+  animation: starr 1s infinite alternate ease-in-out;
+}
+
+.element {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+
+.element2 {   
+  margin-top: -25%;
+  margin-left: 30%;
+  background-color: #f1c40f; 
+  font-size: 27px;
+  font-family: avenir;
+  color: white;
+  width: 500px; 
+  height: 500px;
+  text-align: justify;
+  shape-inside: polygon (125px 0, 175px 85px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+  shape-padding: 5px;
+  transition: all 3s ease; 
+  -webkit-clip-path: polygon(125px 0, 175px 80px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+} 
+.element2:hover{ 
+   shape-inside: polygon (250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  background-color: #FFFFCC;
+  transform: rotate(45deg);
+    animation-name: starrsecond;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+} 
+
+
+
+@keyframes starrsecond {
+  from, 49% { transform-origin: -50% 100%; }
+  50%, 75%, to { transform-origin: 150% 100%; }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.element2 {
+  animation: starrsecond 1s infinite alternate ease-in-out;
+}
+
+.element2 {
+  display: inline-block;
+}
+
+
+
+
+
+.element3 {   
+  margin-top: -25%;
+  margin-left: 55%;
+  background-color: #f1c40f; 
+  font-size: 27px;
+  font-family: avenir;
+  color: white;
+  width: 500px; 
+  height: 500px;
+  text-align: justify;
+  shape-inside: polygon (125px 0, 175px 85px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+  shape-padding: 5px;
+  transition: all 3s ease; 
+  -webkit-clip-path: polygon(125px 0, 175px 80px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+} 
+.element3:hover{ 
+   shape-inside: polygon (250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  background-color: #FFFFCC;
+  transform: rotate(45deg);
+    animation-name: starrthird;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+} 
+
+
+
+@keyframes starrthird {
+  from, 49% { transform-origin: -50% 100%; }
+  50%, 75%, to { transform-origin: 150% 100%; }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.element3 {
+  animation: starrthird 1s infinite alternate ease-in-out;
+}
+
+.element3 {
+  display: inline-block;
+}
+
+/*.element:empty::before {
+  content: "💩";
+}*/
+/*
+
+  shape-inside: polygon(250px 0, 250px 0, 250px 90px, 250px 160px, 250px 250px, 125px 250px, 0 250px, 0 160px, 0 90px, 0 0);
+  -webkit-clip-path: polygon(125px 0, 250px 0, 250px 90px, 250px 160px, 250px 250px, 125px 250px, 0 250px, 0 160px, 0 90px, 0 0);
+
+shape-inside: polygon (125px 0, 175px 85px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );
+-webkit-clip-path: polygon(125px 0, 175px 80px, 250px 90px, 190px 160px, 225px 250px, 125px 210px, 25px 250px, 60px 160px, 0px 90px, 75px 85px );*/
+

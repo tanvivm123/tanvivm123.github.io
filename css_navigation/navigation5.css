@@ -54,25 +54,3 @@ body {
   background-color: #f1c40f;
   transform: rotate(45deg);
 } 
-
-
-.element1{   
-  background-color: #910d3f; 
-  font-size: 27px;
-  font-family: avenir;
-  color: white;
-  width: 500px; 
-  height: 500px;
-  margin: 30px auto;
-  text-align: justify;
-  shape-inside: polygon(250px 0, 500px 0, 500px 180px, 500px 320px, 500px 500px, 250px 500px, 0 500px, 0 320px, 0 180px, 0 0);
-  shape-padding: 10px;
-  transition: all 3s ease; 
-  -webkit-clip-path: polygon(250px 0, 500px 0, 500px 180px, 500px 320px, 500px 500px, 250px 500px, 0 500px, 0 320px, 0 180px, 0 0);
-} 
-.element1:hover{ 
-   shape-inside: polygon (250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
-  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
-  background-color: #f1c40f;
-  transform: rotate(45deg);
-} 
