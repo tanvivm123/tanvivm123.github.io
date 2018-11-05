@@ -23,7 +23,7 @@ var adj = ["smelly", "pink", "pretty", "crazy", "minimalist", "digital", "hairy"
 
 var randomAdj = Math.floor(Math.random() * adj.length)
 
-var noun1 = ["monkey", "dog", "elephant", "penguin", "ant", "old man", "baby", "butterfly"];
+var noun1 = ["monkey", "dog", "elephant", "penguin", "ant", "baby", "butterfly"];
 
 var randomNoun1 = Math.floor(Math.random() * noun1.length);
 
@@ -31,7 +31,7 @@ var verb1 = ["dance about", "sing", "jump", "laugh", "scream", "scare", "snore"]
 
 var randomVerb1 = Math.floor(Math.random() * verb1.length);
 
-var sentence = "Did you know that " + adj[randomAdj] + " " + noun1[randomNoun1] + " come out at 3am and " + verb1[randomVerb1];
+var sentence = "Did you know that " + adj[randomAdj] + " " + noun1[randomNoun1] + " come out late at night and " + verb1[randomVerb1];
 
 // document.write(sentence)
 
