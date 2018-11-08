@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro to DOM manipulation</title>
+	<style type="text/css">
+		.button {
+			width: 50px;
+			height: 50px;
+			margin:10px;
+			border: 1px solid black;
+			transition: 1s ease-in-out;
+			cursor: pointer;
+		}
+
+		.box {
+			width: 400px;
+			height: 400px;
+			margin:10px;
+			background-color: red;
+			max-height: 0;
+			overflow:hidden;
+			transition: 1s ease-in-out;
+		}
+
+		.clicked {
+			max-height: 400px;
+/*			width: 400px;
+			height: 400px;
+			background-color: blue;*/
+		}
+	</style>
+</head>
+<body>
+<div id="clickable" class="button">button</div>
+<div id="clickyThing" class="box"></div>
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
