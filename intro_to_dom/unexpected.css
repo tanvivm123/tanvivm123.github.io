@@ -1,0 +1,161 @@
+.flex{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	margin-top: 10%;
+/*	margin: 10px;*/
+
+
+}
+
+.space-around{
+	justify-content: space-around;
+}
+		.button {
+			width: 230px;
+			height: 230px;
+			margin:10px;
+/*			border: 1px solid black;*/
+			transition: 1s ease-in-out;
+			cursor: pointer;
+		}
+
+		.textinside{
+			width: 195px;
+			height: 195px;
+			margin: 16px;
+		}
+
+		.box1 {
+			width: 230px;
+			height: 230px;
+			background-color: red;
+			max-height: 0;
+			overflow:hidden;
+			transition: 1s ease-in-out;
+			position: absolute;
+			margin-left: -39.7%;
+    		margin-top: 18%;
+    		font-family: times new roman;
+    		font-size: 18pt;
+    		color: white;
+    		background-image: url("deforestation.jpg");
+		}
+
+		.clicked1 {
+			max-height: 230px;
+		}
+
+		.box2 {
+			width: 230px;
+			height: 230px;
+			margin:10px;
+			background-color: red;
+			max-height: 0;
+			overflow:hidden;
+			transition: 1s ease-in-out;
+			position: absolute;
+    		margin-left: -20%;
+    		margin-top: 18%;
+    		font-family: times new roman;
+    		font-size: 18pt;
+    		color: black;
+    		background-image: url("water.jpg");
+		}
+
+		.clicked2 {
+			max-height: 230px;
+		}
+
+
+		.box3 {
+			width: 230px;
+			height: 230px;
+			margin:10px;
+			background-color: red;
+			max-height: 0;
+			overflow:hidden;
+			transition: 1s ease-in-out;
+			position: absolute;
+			margin-left: 20.1%;
+    		margin-top: 18%;
+    		font-family: times new roman;
+    		font-size: 18pt;
+    		color: black;
+    		background-image: url("grey.png");
+		}
+
+		.clicked3 {
+			max-height: 230px;
+		}
+
+		.box4 {
+			width: 230px;
+			height: 230px;
+			margin:10px;
+			background-color: red;
+			max-height: 0;
+			overflow:hidden;
+			transition: 1s ease-in-out;
+			position: absolute;
+   			margin-left: 39.7%;
+    		margin-top: 18%;
+    		font-family: times new roman;
+    		font-size: 18pt;
+    		color: white;
+    		background-image: url("dirtygreen.png");
+		}
+
+		.clicked4 {
+			max-height: 230px;
+		}
+
+.earthbox{
+width: 263px;
+height: 263px;
+/*border: 1px solid black;*/
+}
+
+#earth {
+/*  position: absolute;*/
+  width: 260px;
+  height: 260px;
+  background: url(earthmap.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 630px;
+      transform: rotate(-15deg);
+  animation: rotate 7s linear infinite;
+  transition: transform 200ms linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+  color: #000;
+/*  margin-left: 40%;*/
+}
+
+#earth:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: -80px 15px 80px 10px rgba(0,0,0,.6) inset;
+}
+
+#earth:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 630px 0;}
+}
