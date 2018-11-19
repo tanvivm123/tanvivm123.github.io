@@ -1,0 +1,123 @@
+@font-face{
+    font-family: "champagnelimousine";
+    src:url("fonts/Champagne & Limousines Bold.woff2") format("woff2");
+}
+
+html {
+    background-image: url('./blackbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+div{
+	
+}
+
+a{
+	color: white;
+}
+
+h1{
+	text-align: center;
+	color: #f3e5b1;
+	font-size: 57px;
+	font-family: "Champagne & Limousines"; 
+	font-style: normal;
+	font-weight: normal;
+}
+
+h2{
+	text-align: center;
+	color: #f3e5b1;
+	font size: 40px;
+	font-family: "Champagne & Limousines";
+		font-weight: normal;
+				font-style: italic;
+}
+
+h3{
+	text-align: center;
+	color: #f3e5b1;
+	font-size: 25px;
+		font-family: "Champagne & Limousines"; 
+			font-style: normal;
+				font-weight: normal;
+				text-align: left;
+
+
+}
+
+.topbar{
+position: absolute;
+margin-left: 450px;
+}
+
+.flex{
+	display: flex;
+	width: 90%;
+	margin: 20px;
+
+}
+
+
+.titlebox{
+	width: 37%;
+	height:10%;
+	margin-left: 6%;
+	margin-top: -5%;
+}
+
+.leftdish{
+	position: absolute;
+	margin-left:-0.2%;
+	margin-top: -5%;
+}
+
+.rightdish{
+	position: absolute;
+	margin-right:20%;
+	margin-top: -5%;
+}
+
+
+.descriptionbox{
+	width: 37.5%;
+	height: 30%;
+	text-align: left;
+	margin-top: -9%;
+	border: 0.5px #f3e5b1 ridge;
+	padding: 17px;
+
+}
+
+.yellow{
+	width:120px;
+	height:30px;
+	color: black;
+/*	background-color: yellow;*/
+	margin: 10px;
+	font-family: montserrat;
+	text-align: center;
+}
+
+.bottombox{
+	width: 600px;
+height: 90px;
+margin-top: -15%;
+margin-left: -5.8%;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
