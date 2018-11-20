@@ -3,6 +3,23 @@
     src:url("fonts/Champagne & Limousines Bold.woff2") format("woff2");
 }
 
+@font-face{
+    font-family: "Suranna-Regular";
+    src:url("fonts/Suranna-Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Montserrat-Light";
+    src:url("fonts/Montserrat-Light.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Montserrat-SemiBold";
+    src:url("fonts/Montserrat-SemiBold.woff2") format("woff2");
+}
+
+
+
 html {
     background-image: url('./blackbg.jpg');
     background-repeat: no-repeat;
@@ -93,11 +110,63 @@ margin-left: 450px;
 
 }
 
+.discover{
+	font-family: Montserrat-Light;
+	font-size: 26px ;
+	text-align: center;
+	color: #ffe4b5;
+margin-left: 7%;
+margin-top: -1%;
+position: absolute;
+}
+
+.bonappetit{
+/*	font-family:Suranna-Regular;*/
+	font-size: 36px ;
+/*	font-weight: bold;*/
+	color: white;
+	text-align: center;
+	margin-top: ;
+	margin-left: ;
+	border-bottom: 2px solid #ffe4b5;
+}
+
+.openinghours{
+	font-family: Montserrat-Light;
+	font-size:20px ;
+	font-weight: ;
+	color: white ;
+	text-align: center;
+	margin-top: ;
+	margin-left: ;
+}
+
+.weekdays{
+	font-family: Montserrat-Light;
+	font-size: 15px;
+	font-weight: ;
+	color: white;
+	margin-top: ;
+	margin-left: ;
+		text-align: center;
+		padding-bottom: 6px;
+}
+
+.weekends{
+	font-family: Montserrat-Light ;
+	font-size: 15px;
+	font-weight: ;
+	color: white ;
+	margin-top: ;
+	margin-left: ;
+		text-align: center;
+}
+
+
 .yellow{
 	width:120px;
 	height:30px;
 	color: black;
-/*	background-color: yellow;*/
 	margin: 10px;
 	font-family: montserrat;
 	text-align: center;
