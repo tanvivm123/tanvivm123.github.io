@@ -3,7 +3,7 @@ var clickyThing = document.getElementById("clickyThing");
 
 
 clickable.onclick = function (){
-	
-clickyThing.classList.toggle("clicked");
+	clickyThing.classList.toggle("clicked");
+	document.body.style.backgroundImage = "url('blackbgcrack.png')";
 }
 
