@@ -3,21 +3,71 @@
 <head>
 	<title>Let's Meditate Together!</title>
 	<link rel="stylesheet" type="text/css" href="mainpage.css">
+<!-- 	<iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=XlNhbhavMyg&name=8Hour+Relaxing+Sleep+Music+Calm+Soft+Instrumental+Meditation+2994" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 </head>
 <body>
-<div id="container">
 
-<h2>Clickable Dropdown</h2>
-<p>Click on the button to open the dropdown menu.</p>
 
-<div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Menu</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#home">Let's get Started?</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
+	<div class="maincontainer">
+			<div class="topbar">
+				<div class="flex flex-start">
+					
+					<div class="breathediv">
+					<div class="breathe"><a href="https://tanvivm123.github.io/meditation_website/breathepg.html">breathe</a>
+					</div>
+					</div>
+
+					<div class="escapediv">
+					<div class="escape"><a href="https://tanvivm123.github.io/meditation_website/escape.html">escape</a>
+					</div>
+					</div>
+
+					<div class="listendiv">
+					<div class="listen"><a href="https://tanvivm123.github.io/meditation_website/escape.html">listen</a>
+					</div>
+					</div>
+
+					<div class="relaxdiv">
+					<div class="relax"><a href="https://tanvivm123.github.io/meditation_website/escape.html">relax</a>
+					</div>
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="bottombar">
+				<div class="flex flex-start">
+					
+					<div class="rain"><br><br>
+						<!-- <img src="dropsymbol.png" alt="dropsymbol" width="40%" value="PLAY"  onclick="play(song)">
+					<audio id="audio" src="songg.mp3" ></audio> -->
+
+					<img src="dropsymbol.png" alt="dropsymbol" width="40%" value="PLAY"  onClick="togglePlay()">
+					<audio id="myAudio" src="rainclip.mp3" preload="auto"></audio>
+					<!-- <a onClick="togglePlay()">Click here to hear.</a> -->
+					</div>
+
+					<div class="fire"><br><br>
+						<img src="firesymbol.png" alt="firesymbol" width="60%" value="PLAY"  onClick="togglePlay2()">
+						<audio id="myAudio2" src="fireclip.mp3" preload="auto"></audio>
+					</div>
+
+					<div class="wind"><br><br><br>
+						<img src="windsymbol.png" alt="windsymbol" width="75%" value="PLAY"  onClick="togglePlay3()">
+						<audio id="myAudio3" src="windclip.mp3" preload="auto"></audio>
+					</div>
+
+					<div class="bird"><br><br>
+						<img src="birdsymbol.png" alt="birdsymbol" width="75%" value="PLAY"  onClick="togglePlay4()">
+						<audio id="myAudio4" src="songg.mp3" preload="auto"></audio>
+					</div>
+
+				</div>
+			</div>
+
+	</div>
+
+
 
 </div>
 </body>

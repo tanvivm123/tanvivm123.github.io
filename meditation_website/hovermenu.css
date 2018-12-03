@@ -1,0 +1,61 @@
+body {
+      animation: colorchange 35s; 
+      -webkit-animation: colorchange 25s;
+      animation-iteration-count: infinite;
+    }
+
+  @keyframes colorchange
+    {
+      0%   {background: #e99a75;}
+      10%  {background: #eaa780;}
+      20%  {background: #eba387;}
+      30%  {background: #ecb47c;}
+      40%  {background: #ea9d92;}
+      50%  {background: #e78465;}
+      60%  {background: #ea9d92;}
+      70%  {background: #ecb47c;}
+      80%   {background: #eba387;}
+      90%   {background: #eaa780;}
+      100% {background: #e99a75;}
+    }  
+
+
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: green;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 660px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
