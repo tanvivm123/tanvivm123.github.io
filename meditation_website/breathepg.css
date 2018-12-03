@@ -73,10 +73,282 @@ h3{
   text-align: center;
   color:bisque;
   font-size: 20px;
-    font-family: "Quicksand-Light"; 
+    font-family: "Quicksand-Light"; }
 
+.heart-wrapper{
+  height: 250px;
+  width: 250px;
+  position:absolute;
+  border-radius: 125px;
+  top: 30%;
+  left: 39%;
+  overflow: hidden;
+        animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+/*  background-color: #F8F8F8;*/
+/*  transition: background 1s ease-in-out;
+  animation-iteration-count: infinite;*/
+}
+
+.heart-wrapper:hover {
+  background-color: #910d3f ;
+  justify-content: center;
+}
+
+.heart-wrapper:hover .heart{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper:hover .heart-1{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper:hover .heart-r{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2{
+  height: 250px;
+  width: 250px;
+  position:absolute;
+  border-radius: 125px;
+  top: 60%;
+  left: 12%;
+  overflow: hidden;
+          animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+/*  background-color: #F8F8F8;
+  transition: background 1s ease-in-out;
+  animation-iteration-count: infinite;*/
 
 }
+
+.heart-wrapper2:hover {
+  background-color: #910d3f ;
+  justify-content: center;
+}
+
+.heart-wrapper2:hover .heart2{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2:hover .heart-1{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper2:hover .heart-r{
+  background-color: pink/*#c70039*/;
+}
+
+
+.heart-wrapper3{
+  height: 250px;
+  width: 250px;
+  position:absolute;
+  border-radius: 125px;
+  top: 60%;
+  left: 65%;
+  overflow: hidden;
+          animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+/*  background-color: #F8F8F8;
+  transition: background 1s ease-in-out;
+  animation-iteration-count: infinite;*/
+}
+
+.heart-wrapper3:hover {
+  background-color: #910d3f ;
+  justify-content: center;
+}
+
+.heart-wrapper3:hover .heart3{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper3:hover .heart-1{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper3:hover .heart-r{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4{
+  height: 250px;
+  width: 250px;
+  position:absolute;
+  border-radius: 125px;
+  top: 13%;
+  left: 65%;
+  overflow: hidden;
+          animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+/*  background-color: #F8F8F8;
+  transition: background 1s ease-in-out;
+  animation-iteration-count: infinite;*/
+
+}
+
+.heart-wrapper4:hover {
+  background-color: #910d3f ;
+  justify-content: center;
+}
+
+.heart-wrapper4:hover .heart4{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4:hover .heart-1{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper4:hover .heart-r{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5{
+  height: 250px;
+  width: 250px;
+  position:absolute;
+  border-radius: 125px;
+  top: 12%;
+  left: 12%;
+  overflow: hidden;
+          animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+/*  background-color: #F8F8F8;
+  transition: background 1s ease-in-out;
+  animation-iteration-count: infinite;*/
+
+}
+
+.heart-wrapper5:hover {
+  background-color: #910d3f ;
+  justify-content: center;
+}
+
+.heart-wrapper5:hover .heart5{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5:hover .heart-1{
+  background-color: pink/*#c70039*/;
+}
+
+.heart-wrapper5:hover .heart-r{
+  background-color: pink/*#c70039*/;
+}
+
+.heart{
+  background-color: #c70039;
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  top: 50%;
+  left: 36%;
+  transform: rotate(45deg);
+  animation: beat 4s infinite;
+  transition-property:background-color, transform;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease-in-out, linear;
+}
+
+@keyframes beat{
+  50%{
+    transform: rotate(45deg)scale(1.5);
+  }
+}
+
+.heart-1, .heart-r{
+  background-color: #c70039;
+  height: 40px;
+  width: 70px;
+  position: relative;
+  border-radius: 70px 70px 0px 0px;
+  transition-property:background-color, transform;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease-in-out, linear;
+
+}
+
+.heart-1{
+    bottom: 38px;
+}
+
+.heart-r{
+  bottom: 25px;
+  right: 52px;
+  transform: rotate(-90deg);
+}
+
+
+.heart2{
+  background-color: #c70039;
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  top: 47%;
+  left: 37%;
+  transform: rotate(45deg);
+  animation: beat 4s infinite;
+        transition-property:background-color, transform;
+        transition-duration: 1s, 1s;
+        transition-timing-function: ease-in-out, linear;
+}
+
+
+
+.heart3{
+  background-color: #c70039;
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  top: 47%;
+  left: 37%;
+  transform: rotate(45deg);
+  animation: beat 4s infinite;
+        transition-property:background-color, transform;
+        transition-duration: 1s, 1s;
+        transition-timing-function: ease-in-out, linear;
+}
+
+.heart4{
+  background-color: #c70039;
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  top: 47%;
+  left: 37%;
+  transform: rotate(45deg);
+  animation: beat 4s infinite;
+        transition-property:background-color, transform;
+        transition-duration: 1s, 1s;
+        transition-timing-function: ease-in-out, linear;
+}
+
+.heart5{
+  background-color: #c70039;
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  top: 47%;
+  left: 37%;
+  transform: rotate(45deg);
+  animation: beat 4s infinite;
+          transition-property:background-color, transform;
+          transition-duration: 1s, 1s;
+          transition-timing-function: ease-in-out, linear;
+}
+
+
+
+
+
 
 .flex{
   display: flex;
@@ -110,145 +382,6 @@ height: 75%;
 /*align-content: right;*/
 }
 
-.rain{
-background-color: red;
-width: 25%;
-height: 100%;
-position: absolute;
-text-align: center;
-
-/*margin-left:0%;*/
-}
-
-.rain: hover{
-  cursor: pointer;
-}
-
-.fire{
-background-color: yellow;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 25%;
-    text-align: center;
-}
-
-.wind{
-background-color: blue;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 50%;
-    text-align: center;
-/*margin-left:0%;*/
-}
-
-.bird{
-background-color: lightgreen;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 75%;
-    text-align: center;
-/*margin-left:0%;*/
-}
-
-.breathediv{
-background-color: black;
-width: 25%;
-height: 100%;
-position: absolute;
-/*text-align: center;
-font-family: "Quicksand-Light";
-font-size: 26px;*/
-}
-
-.breathe{
-/*background-color: black;*/
-width: 100%;
-height: 100%;
-/*position: absolute;*/
-text-align: center;
-font-family: "Quicksand-Light";
-font-size: 26px;
-margin-top: 5%;
-}
-
-/*.breathe: hover{
-  cursor: 
-}*/
-
-.escapediv{
-background-color: pink;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 25%;
-/*    text-align: center;
-    font-family: "Quicksand-Light";
-    font-size: 26px;*/
-}
-
-.escape{
-
-/*width: 25%;*/
-height: 100%;
-
-/*    margin-left: 25%;*/
-    text-align: center;
-    font-family: "Quicksand-Light";
-    font-size: 26px;
-    margin-top: 5%;
-}
-
-.listendiv{
-background-color: purple;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 50%;
-/*    text-align: center;
-    font-family: "Quicksand-Light";
-    font-size: 26px;*/
-}
-
-.listen{
-
-/*width: 25%;*/
-height: 100%;
-
-/*    margin-left: 50%;*/
-    text-align: center;
-    font-family: "Quicksand-Light";
-    font-size: 26px;
-    margin-top: 5%;
-}
-
-.relaxdiv{
-background-color: green;
-width: 25%;
-height: 100%;
-    position: absolute;
-    margin-left: 75%;
-    text-align: center;
-/*    font-family: "Quicksand-Light";
-    font-size: 26px;*/
-}
-
-.relax{
-
-/*width: 25%;*/
-height: 100%;
-
-/*    margin-left: 75%;*/
-    text-align: center;
-    font-family: "Quicksand-Light";
-    font-size: 26px;
-    margin-top: 5%;
-}
-
-
-
 .space-around{
   justify-content: space-around;
 }
@@ -271,3 +404,7 @@ height: 100%;
   display: flex;
   flex-direction: row;
 }
+
+
+
+

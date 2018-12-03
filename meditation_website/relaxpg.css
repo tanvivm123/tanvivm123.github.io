@@ -1,0 +1,273 @@
+@font-face{
+    font-family: "Quicksand-Light";
+    src:url("fonts/Quicksand-Light.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Quicksand-Regular";
+    src:url("fonts/Quicksand-Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Quicksand-Medium";
+    src:url("fonts/Quicksand-Medium.woff2") format("woff2");
+}
+
+
+body {
+      animation: colorchange 30s; 
+      -webkit-animation: colorchange 20s;
+      animation-iteration-count: infinite;
+    }
+
+  @keyframes colorchange
+    {
+      0%   {background: #e99a75;}
+      10%  {background: #eaa780;}
+      20%  {background: #eba387;}
+      30%  {background: #ecb47c;}
+      40%  {background: #ea9d92;}
+      50%  {background: #e78465;}
+      60%  {background: #ea9d92;}
+      70%  {background: #ecb47c;}
+      80%  {background: #eba387;}
+      90%  {background: #eaa780;}
+      100% {background: #e99a75;}
+    }  
+
+div{
+  
+}
+
+a{
+  color: bisque;
+  text-decoration: none;
+}
+
+a:hover {
+font-weight: bold;
+font-size: 30px;
+cursor: pointer;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  color: grey;
+  font-size: 57px;
+  font-family: "Quicksand-Regular"; 
+  font-style: normal;
+}
+
+h2{
+  text-align: center;
+  color: grey;
+  font size: 35px;
+  font-family: "Quicksand-Regular";
+}
+
+h3{
+  text-align: center;
+  color:bisque;
+  font-size: 20px;
+    font-family: "Quicksand-Light"; 
+
+
+}
+
+.flex{
+  display: flex;
+/*  width: 90%;
+  margin: 20px;*/
+
+}
+
+.maincontainer{
+  width: 800px;
+  height: 260px;
+  background-color: orange;
+  position: absolute;
+margin-top: 15%;
+margin-left: 20%;
+
+}
+
+.topbar{
+    background-color: grey;
+width: 100%;
+height: 25%;
+/*align-content: left;*/
+}
+
+.bottombar{
+    background-color: white;
+    position: absolute;
+width: 100%;
+height: 75%;
+/*align-content: right;*/
+}
+
+.rain{
+background-color: red;
+width: 25%;
+height: 100%;
+position: absolute;
+text-align: center;
+
+/*margin-left:0%;*/
+}
+
+.rain: hover{
+  cursor: pointer;
+}
+
+.fire{
+background-color: yellow;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.wind{
+background-color: blue;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 50%;
+    text-align: center;
+/*margin-left:0%;*/
+}
+
+.bird{
+background-color: lightgreen;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 75%;
+    text-align: center;
+/*margin-left:0%;*/
+}
+
+.breathediv{
+background-color: black;
+width: 25%;
+height: 100%;
+position: absolute;
+/*text-align: center;
+font-family: "Quicksand-Light";
+font-size: 26px;*/
+}
+
+.breathe{
+/*background-color: black;*/
+width: 100%;
+height: 100%;
+/*position: absolute;*/
+text-align: center;
+font-family: "Quicksand-Light";
+font-size: 26px;
+margin-top: 5%;
+}
+
+/*.breathe: hover{
+  cursor: 
+}*/
+
+.escapediv{
+background-color: pink;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 25%;
+/*    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.escape{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 25%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+.listendiv{
+background-color: purple;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 50%;
+/*    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.listen{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 50%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+.relaxdiv{
+background-color: green;
+width: 25%;
+height: 100%;
+    position: absolute;
+    margin-left: 75%;
+    text-align: center;
+/*    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.relax{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 75%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+
+
+.space-around{
+  justify-content: space-around;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.flex-vertical{
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+}
+
+.flex-horizontal{
+  display: flex;
+  flex-direction: row;
+}
