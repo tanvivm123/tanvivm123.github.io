@@ -18,20 +18,6 @@ window.onclick = function(event) {
 }
 
 
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-
-
 //   function play(){
 //        var audio = document.getElementById("audio");
 //        audio.play();
@@ -41,73 +27,83 @@ function myFunction() {
 // song.src = "songg.mp3";
 
 
-          var myAudio = document.getElementById("myAudio");
-          var isPlaying = false;
+var myAudio = document.getElementById("myAudio");
 
-          function togglePlay() {
-            if (isPlaying) {
-              myAudio.pause()
-            } else {
-              myAudio.play();
-            }
-          };
-          myAudio.onplaying = function() {
-            isPlaying = true;
-          };
-          myAudio.onpause = function() {
-            isPlaying = false;
-          };
+function togglePlay(element) {
+  element.classList.toggle("isplaying");
+  if (myAudio.paused) {
+    myAudio.play()
+  } else {
+    myAudio.pause();
+    myAudio.currentTime = 0;
+  }
+};
 
+var myAudio2 = document.getElementById("myAudio2");
 
-          var myAudio2 = document.getElementById("myAudio2");
-          var isPlaying = false;
-
-          function togglePlay2() {
-            if (isPlaying) {
-              myAudio2.pause()
-            } else {
-              myAudio2.play();
-            }
-          };
-          myAudio2.onplaying = function() {
-            isPlaying = true;
-          };
-          myAudio2.onpause = function() {
-            isPlaying = false;
-          };
+function togglePlay2(element) {
+  element.classList.toggle("isplaying");
+  if (myAudio2.paused) {
+    myAudio2.play()
+  } else {
+    myAudio2.pause();
+    myAudio2.currentTime = 0;
+  }
+};
 
 
-                    var myAudio3 = document.getElementById("myAudio3");
-          var isPlaying = false;
+var myAudio3 = document.getElementById("myAudio3");
 
-          function togglePlay3() {
-            if (isPlaying) {
-              myAudio3.pause()
-            } else {
-              myAudio3.play();
-            }
-          };
-          myAudio3.onplaying = function() {
-            isPlaying = true;
-          };
-          myAudio3.onpause = function() {
-            isPlaying = false;
-          };
+function togglePlay3(element) {
+  element.classList.toggle("isplaying");
+  if (myAudio3.paused) {
+    myAudio3.play()
+  } else {
+    myAudio3.pause();
+    myAudio3.currentTime = 0;
+  }
+};
 
 
-                    var myAudio4 = document.getElementById("myAudio4");
-          var isPlaying = false;
 
-          function togglePlay4() {
-            if (isPlaying) {
-              myAudio4.pause()
-            } else {
-              myAudio4.play();
-            }
-          };
-          myAudio4.onplaying = function() {
-            isPlaying = true;
-          };
-          myAudio4.onpause = function() {
-            isPlaying = false;
-          };
+var myAudio4 = document.getElementById("myAudio4");
+
+function togglePlay4(element) {
+  element.classList.toggle("isplaying");
+  if (myAudio4.paused) {
+    myAudio4.play();
+  } else {
+    myAudio4.pause()
+    myAudio4.currentTime = 0;
+  }
+};
+
+
+var myRange = document.getElementById("myRange");
+
+myRange.addEventListener("input", function(){
+  myAudio.volume = myRange.value;
+});
+
+
+var myRange2 = document.getElementById("myRange2");
+
+myRange2.addEventListener("input", function(){
+  myAudio2.volume = myRange2.value;
+});
+
+
+var myRange3 = document.getElementById("myRange3");
+
+myRange3.addEventListener("input", function(){
+  myAudio3.volume = myRange3.value;
+});
+
+
+var myRange4 = document.getElementById("myRange4");
+
+myRange4.addEventListener("input", function(){
+  myAudio4.volume = myRange4.value;
+});
+
+

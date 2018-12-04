@@ -13,48 +13,42 @@
     src:url("fonts/Quicksand-Medium.woff2") format("woff2");
 }
 
-video{
-  opacity: 0.2;
-  z-index: 0;
+body{
+  color: white;
+} 
+
+div{
+  
 }
 
-body {}
-
-div{}
-
 a{
-  color: black;
+  color: grey;
   text-decoration: none;
 }
 
-a:hover {
-font-weight: bold;
-font-size: 30px;
-cursor: pointer;
-}
-
-img:hover{
-  cursor: pointer;
+video{
+  opacity: 0.1;
+  z-index: 0;
 }
 
 h1{
   text-align: center;
-  color: black;
-  font-size: 33px;
+  color: grey;
+  font-size: 57px;
   font-family: "Quicksand-Regular"; 
   font-style: normal;
 }
 
 h2{
   text-align: center;
-  color: black;
-  font size: 20px;
-  font-family: "Quicksand-Light";
+  color: grey;
+  font size: 35px;
+  font-family: "Quicksand-Regular";
 }
 
 h3{
   text-align: center;
-  color:black;
+  color:grey;
   font-size: 20px;
     font-family: "Quicksand-Light"; 
 
@@ -68,80 +62,182 @@ h3{
 
 }
 
-.bodyscan{
+.maincontainer{
   width: 800px;
   height: 260px;
-   border-radius: 10%;
+  border-radius: 10%;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   position: absolute;
+/*  border:2px grey solid;*/
+/*margin-top: 15%;
+margin-left: 20%;*/
 transform: translate(-50%, -50%);
 top:50%;
 left: 50%;
 }
 
-.description{
-  height: 80%;
-text-align: center;
-color: black;
-margin-top: 2%;
-}
-
-.bottombar{
-    position: absolute;
-width: 100%;
-margin-left: 20%
-/*height: 70px;
-margin-top: 50%;*/
-}
-
-.fivemin{
-  width: 155px;
-  height: 63px;
-  background-color: white;
-  opacity: 0.7;
-  position: absolute;
-margin-top: -15%;
-margin-left: 10%;
-z-index: 0;
-font-family: "Quicksand-Light";
-text-align: center;
-}
-
-.tenmin{
-  width: 155px;
-  height: 63px;
-  background-color: white;
-  opacity: 0.7;
-  position: absolute;
-margin-top: -15%;
-margin-left: 25%;
-z-index: 0;
-font-family: "Quicksand-Light";
-text-align: center;
-}
-
-.twentymin{
-  width: 155px;
-  height: 63px;
-  background-color: white;
-  opacity: 0.7;
-  position: absolute;
-margin-top: -15%;
-margin-left: 40%;
-z-index: 0;
-font-family: "Quicksand-Light";
-text-align: center;
-}
-
-
 .topbar{
-    background-color: grey;
+/*    background-color: grey;*/
 width: 100%;
 height: 25%;
+  border-radius: 10%;
 /*align-content: left;*/
 }
 
+.bottombar{
+/*    background-color: white;*/
+    position: absolute;
+width: 100%;
+height: 75%;
+  border-radius: 10%;
+/*align-content: right;*/
+}
+
+.rain{
+background-color: white;
+width: 25%;
+height: 100%;
+position: absolute;
+text-align: center;
+  border-radius: 10%;
+
+/*margin-left:0%;*/
+}
+
+.rain: hover{
+  cursor: pointer;
+}
+
+.fire{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.wind{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 50%;
+    text-align: center;
+/*margin-left:0%;*/
+}
+
+.bird{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 75%;
+    text-align: center;
+/*margin-left:0%;*/
+}
+
+.breathediv{
+background-color: white;
+width: 25%;
+height: 100%;
+position: absolute;
+  border-radius: 10%;
+/*text-align: center;
+font-family: "Quicksand-Light";
+font-size: 26px;*/
+}
+
+.breathe{
+/*background-color: black;*/
+width: 100%;
+height: 100%;
+/*position: absolute;*/
+text-align: center;
+font-family: "Quicksand-Light";
+font-size: 26px;
+margin-top: 5%;
+}
+
+/*.breathe: hover{
+  cursor: 
+}*/
+
+.escapediv{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 25%;
+/*    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.escape{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 25%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+.listendiv{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 50%;
+/*    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.listen{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 50%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+.relaxdiv{
+background-color: white;
+width: 25%;
+height: 100%;
+  border-radius: 10%;
+    position: absolute;
+    margin-left: 75%;
+    text-align: center;
+/*    font-family: "Quicksand-Light";
+    font-size: 26px;*/
+}
+
+.relax{
+
+/*width: 25%;*/
+height: 100%;
+
+/*    margin-left: 75%;*/
+    text-align: center;
+    font-family: "Quicksand-Light";
+    font-size: 26px;
+    margin-top: 5%;
+}
 
 
 
@@ -167,3 +263,88 @@ height: 25%;
   display: flex;
   flex-direction: row;
 }
+
+.isplaying {
+/*  border: 5px solid blue;*/
+opacity: 0.5;
+}
+
+.bodyscan{
+  width: 800px;
+  height: 260px;
+   border-radius: 10%;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+transform: translate(-50%, -50%);
+top:50%;
+left: 50%;
+}
+
+.description{
+  height: 80%;
+text-align: center;
+color: black;
+margin-top: 2%;
+}
+
+.bottomoptions{
+    position: absolute;
+width: 100%;
+margin-left: 20%
+/*height: 70px;
+margin-top: 50%;*/
+}
+
+.fivemin{
+  width: 155px;
+  height: 80px;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+margin-top: -15%;
+margin-left: 10%;
+z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;
+}
+
+.fivemin:hover {
+cursor: pointer;
+}
+
+.tenmin{
+  width: 155px;
+  height: 80px;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+margin-top: -15%;
+margin-left: 25%;
+z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;
+}
+
+.tenmin:hover {
+cursor: pointer;
+}
+
+.twentymin{
+  width: 155px;
+  height: 80px;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+margin-top: -15%;
+margin-left: 40%;
+z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;
+}
+
+.twentymin:hover {
+cursor: pointer;
+}
+
+
