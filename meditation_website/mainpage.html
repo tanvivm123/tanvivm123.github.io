@@ -3,10 +3,10 @@
 <head>
 	<title>Let's Meditate Together!</title>
 	<link rel="stylesheet" type="text/css" href="mainpage.css">
-	<iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=XlNhbhavMyg&name=8Hour+Relaxing+Sleep+Music+Calm+Soft+Instrumental+Meditation+2994" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="0" height="0" src="https://youtuberepeater.com/watch?v=XlNhbhavMyg&name=8Hour+Relaxing+Sleep+Music+Calm+Soft+Instrumental+Meditation+2994" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </head>
 <body>
-
+<video autoplay muted loop id="myVideo" width="100%" src="cloudsvid.mp4"></video>
 
 	<div class="maincontainer">
 			<div class="topbar">
@@ -42,24 +42,29 @@
 						<!-- <img src="dropsymbol.png" alt="dropsymbol" width="40%" value="PLAY"  onclick="play(song)">
 					<audio id="audio" src="songg.mp3" ></audio> -->
 
-					<img src="dropsymbol.png" alt="dropsymbol" width="40%" value="PLAY"  onClick="togglePlay()">
-					<audio id="myAudio" src="rainclip.mp3" preload="auto"></audio>
+					<img src="dropsymbol.png" alt="dropsymbol" width="40%" value="PLAY"  onClick="togglePlay(this)">
+					<audio id="myAudio" src="rainclip.mp3" preload="auto" loop></audio>
+					<input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange">
 					<!-- <a onClick="togglePlay()">Click here to hear.</a> -->
 					</div>
 
 					<div class="fire"><br><br>
-						<img src="firesymbol.png" alt="firesymbol" width="60%" value="PLAY"  onClick="togglePlay2()">
-						<audio id="myAudio2" src="fireclip.mp3" preload="auto"></audio>
+					<img src="firesymbol.png" alt="firesymbol" width="60%" value="PLAY"  onClick="togglePlay2(this)">
+					<audio id="myAudio2" src="fireclip.mp3" preload="auto" loop></audio>
+					<input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange2">
 					</div>
 
 					<div class="wind"><br><br><br>
-						<img src="windsymbol.png" alt="windsymbol" width="75%" value="PLAY"  onClick="togglePlay3()">
-						<audio id="myAudio3" src="windclip.mp3" preload="auto"></audio>
+						<img src="windsymbol.png" alt="windsymbol" width="75%" value="PLAY"  onClick="togglePlay3(this)">
+						
+						<audio id="myAudio3" src="windclip.mp3" preload="auto" loop></audio>
+						<input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange3">
 					</div>
 
 					<div class="bird"><br><br>
-						<img src="birdsymbol.png" alt="birdsymbol" width="75%" value="PLAY"  onClick="togglePlay4()">
-						<audio id="myAudio4" src="birdclip.mp3" preload="auto"></audio>
+						<img src="birdsymbol.png" alt="birdsymbol" width="75%" value="PLAY"  onClick="togglePlay4(this)">
+						<audio id="myAudio4" src="birdclip.mp3" preload="auto" loop></audio>
+						<input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange4">
 					</div>
 
 				</div>

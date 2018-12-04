@@ -71,12 +71,13 @@ h3{
 .bodyscan{
   width: 800px;
   height: 260px;
+   border-radius: 10%;
   background-color: white;
   opacity: 0.7;
   position: absolute;
-margin-top: -40%;
-margin-left: 20%;
-z-index: 0;
+transform: translate(-50%, -50%);
+top:50%;
+left: 50%;
 }
 
 .description{
