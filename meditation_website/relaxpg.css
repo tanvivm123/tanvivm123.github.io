@@ -206,7 +206,6 @@ height: 100%;
     font-family: "Quicksand-Light";
     font-size: 26px;
     margin-top: 5%;
-    opacity: 0.5;
     /* text-decoration: underline; */
     /* font-weight: 900; */
 }
@@ -240,6 +239,7 @@ height: 100%;
     font-family: "Quicksand-Light";
     font-size: 26px;
     margin-top: 5%;
+    opacity: 0.5;
 }
 
 
