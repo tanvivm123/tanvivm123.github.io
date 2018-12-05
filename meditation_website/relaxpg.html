@@ -5,7 +5,65 @@
 	<link rel="stylesheet" type="text/css" href="relaxpg.css">
 </head>
 <body>
+<video autoplay muted loop id="myVideo" width="100%" src="cloudsvid.mp4"></video>
 
+	<div class="maincontainer">
+			<div class="topbar">
+				<div class="flex flex-start">
+					
+					<div class="breathediv">
+					<div class="breathe"><a href="https://tanvivm123.github.io/meditation_website/mainpage.html">sound</a>
+					</div>
+					</div>
+
+					<div class="escapediv">
+					<div class="escape"><a href="https://tanvivm123.github.io/meditation_website/escapepg.html">scan</a>
+					</div>
+					</div>
+
+					<div class="listendiv">
+					<div class="listen"><a href="https://tanvivm123.github.io/meditation_website/listenpg.html">silent</a>
+					</div>
+					</div>
+
+					<div class="relaxdiv">
+					<div class="relax"><a href="https://tanvivm123.github.io/meditation_website/relaxpg.html">spiritual</a>
+					</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="bottombar">
+				<div class="description">
+					The body scan meditation focuses attention on physical sensations in the body. The practice is completed by “scanning” one's awareness through the entire body on a micro level. Attention is given to every inch of the body. The purpose of this practice is to cultivate the ability to notice what is being experienced in the body. This is a particularly useful practice to learn self-awareness about how physical experience is tied to emotional experience. 
+				</div>
+			</div>
+
+	</div>
+
+<div class="bottomoptions">
+	<div class="flex space-around">
+			<div class="fivemin">
+			<div class="fivemintext" value="PLAY"  onClick="togglePlay(this)"> <h3>5 minutes</h3></div>
+				<audio id="myAudio" src="5minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange"></center>
+			</div>
+
+			<div class="tenmin">
+			<div class="tenmin" value="PLAY"  onClick="togglePlay2(this)"> <h3>10 minutes</h3></div>
+				<audio id="myAudio2" src="10minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange2"></center>
+			</div>
+
+			<div class="twentymin">
+			<div class="twentymin" value="PLAY"  onClick="togglePlay3(this)"><h3>20 minutes</h3></div>
+				<audio id="myAudio3" src="20minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange3"></center>
+			</div>
+<!-- 			</div> -->
+	</div>
+</div>
 
 </body>
 <script type="text/javascript" src="relaxpg.js"></script>
