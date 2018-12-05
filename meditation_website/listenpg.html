@@ -5,7 +5,65 @@
 	<link rel="stylesheet" type="text/css" href="listenpg.css">
 </head>
 <body>
+<video autoplay muted loop id="myVideo" width="100%" src="cloudsvid.mp4"></video>
 
+	<div class="maincontainer">
+			<div class="topbar">
+				<div class="flex flex-start">
+					
+					<div class="breathediv">
+					<div class="breathe"><a href="https://tanvivm123.github.io/meditation_website/mainpage.html">sound</a>
+					</div>
+					</div>
+
+					<div class="escapediv">
+					<div class="escape"><a href="https://tanvivm123.github.io/meditation_website/escapepg.html">scan</a>
+					</div>
+					</div>
+
+					<div class="listendiv">
+					<div class="listen"><a href="https://tanvivm123.github.io/meditation_website/listenpg.html">silent</a>
+					</div>
+					</div>
+
+					<div class="relaxdiv">
+					<div class="relax"><a href="https://tanvivm123.github.io/meditation_website/relaxpg.html">spiritual</a>
+					</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="bottombar">
+				<div class="description">
+					Something about the different types? random soft balls floating? 
+				</div>
+			</div>
+
+	</div>
+
+<div class="bottomoptions">
+	<div class="flex space-around">
+			<div class="fivemin">
+			<div class="fivemintext" value="PLAY"  onClick="togglePlay(this)"> <h3>1 minute</h3></div>
+				<audio id="myAudio" src="5minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange"></center>
+			</div>
+
+			<div class="tenmin">
+			<div class="tenmin" value="PLAY"  onClick="togglePlay2(this)"> <h3>3 minutes</h3></div>
+				<audio id="myAudio2" src="10minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange2"></center>
+			</div>
+
+			<div class="twentymin">
+			<div class="twentymin" value="PLAY"  onClick="togglePlay3(this)"><h3>5 minutes</h3></div>
+				<audio id="myAudio3" src="20minbodyscan.mp3" preload="auto" loop></audio>
+				<center><input type="range" min="0" max="1" value="1" class="audio-slider" step="0.01" id="myRange3"></center>
+			</div>
+<!-- 			</div> -->
+	</div>
+</div>
 
 </body>
 <script type="text/javascript" src="listenpg.js"></script>
