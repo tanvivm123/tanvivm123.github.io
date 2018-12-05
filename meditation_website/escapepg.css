@@ -206,6 +206,9 @@ height: 100%;
     font-family: "Quicksand-Light";
     font-size: 26px;
     margin-top: 5%;
+    opacity: 0.5;
+    /* text-decoration: underline; */
+    /* font-weight: 900; */
 }
 
 .listendiv{
@@ -283,10 +286,15 @@ left: 50%;
 
 .description{
   height: 80%;
-  width: 800px; 
+  position: absolute; 
 text-align: center;
-color: black;
-margin-top: 2%;
+font-family: "Quicksand-Light";
+opacity: 0.6;
+font-size:20px;
+color: grey;
+padding: 22px;
+text-align: justify;
+margin-top: -0.5%;
 }
 
 .bottomoptions{
@@ -308,11 +316,16 @@ margin-left: 20%*/
 
 .fivemin{
   width: 155px;
-  height: 100px;
+/*  height: 100px;*/
   background-color: white;
-  opacity: 0.7;
+/*  opacity: 0.7;*/
     border-radius: 20px;
-z-index: 0;
+/*z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;*/
+}
+
+.fivemintext{
 font-family: "Quicksand-Light";
 text-align: center;
 }
@@ -323,11 +336,16 @@ cursor: pointer;
 
 .tenmin{
   width: 155px;
-  height: 100px;
+/*  height: 100px;*/
   background-color: white;
-  opacity: 0.7;
+/*  opacity: 0.7;*/
     border-radius: 20px;
-z-index: 0;
+/*z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;*/
+}
+
+.tenmintext{
 font-family: "Quicksand-Light";
 text-align: center;
 }
@@ -338,11 +356,16 @@ cursor: pointer;
 
 .twentymin{
   width: 155px;
-  height: 100px;
+/*  height: 100px;*/
   background-color: white;
-  opacity: 0.7;
+/*  opacity: 0.7;*/
     border-radius: 20px;
-z-index: 0;
+/*z-index: 0;
+font-family: "Quicksand-Light";
+text-align: center;*/
+}
+
+.twentymintext{
 font-family: "Quicksand-Light";
 text-align: center;
 }
