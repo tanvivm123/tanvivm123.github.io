@@ -288,14 +288,15 @@ left: 50%;
 .description{
   height: 80%;
   position: absolute; 
-text-align: center;
+/*text-align: center;*/
 font-family: "Quicksand-Light";
 opacity: 0.6;
 font-size:20px;
 color: grey;
 padding: 22px;
 text-align: justify;
-margin-top: -0.5%;
+margin-top: 7%;
+margin-left: 6%;
 }
 
 .bottomoptions{

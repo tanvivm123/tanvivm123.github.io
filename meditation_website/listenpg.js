@@ -31,14 +31,14 @@ function togglePlay(element) {
     playAudio();
   setTimeout(function(){
     playAudio();
-  },8000);
+  },30000);
 
 };
 
 
 
 var myAudio2 = document.getElementById("myAudio2");
-function playAudio(){
+function playAudio2(){
 myAudio2.pause();
 myAudio2.currentTime = 0;
 myAudio2.play();
@@ -55,7 +55,7 @@ playAudio2();
 
 
 var myAudio3 = document.getElementById("myAudio3");
-function playAudio(){
+function playAudio3(){
 myAudio3.pause();
 myAudio3.currentTime = 0;
 myAudio3.play();
