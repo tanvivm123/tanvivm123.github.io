@@ -27,9 +27,9 @@ a{
 }
 
 a:hover {
-font-weight: bold;
-font-size: 30px;
+font-size: 27px;
 cursor: pointer;
+opacity: 0.5;
 }
 
 video{
@@ -290,11 +290,11 @@ left: 50%;
 text-align: center;
 font-family: "Quicksand-Light";
 opacity: 0.6;
-font-size:20px;
+font-size:18px;
 color: grey;
 padding: 22px;
 text-align: justify;
-margin-top: -0.5%;
+margin-top: -4%;
 }
 
 .bottomoptions{
