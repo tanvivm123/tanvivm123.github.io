@@ -290,13 +290,13 @@ left: 50%;
   position: absolute; 
 /*text-align: center;*/
 font-family: "Quicksand-Light";
-opacity: 0.6;
+opacity: 0.8;
 font-size:20px;
 color: grey;
 padding: 22px;
-text-align: justify;
-margin-top: 7%;
-margin-left: 6%;
+text-align: left;
+margin-top: 1.00%;
+margin-left: 30%;
 }
 
 .bottomoptions{
